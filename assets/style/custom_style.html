@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    h1 {
+      color: #FF0000; /* Replace with your desired text color */
+      font-size: 20px; /* Replace with your desired font size */
+    }
+  </style>
+</head>
+<body>
+<h1 id="content"></h1>
+<script>
+    var content = '${widget.marketplaceLandingPageModel.layout1?.aboutContent}';
+    document.getElementById('content').innerHTML = content;
+  </script>
+</body>
+</html>

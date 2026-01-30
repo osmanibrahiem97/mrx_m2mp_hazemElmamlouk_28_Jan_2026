@@ -1,0 +1,238 @@
+{
+  "success": true,
+  "message": "",
+  "filterOption": [
+    {
+      "id": "entity_id",
+      "name": "ID",
+      "type": "textRange"
+    },
+    {
+      "id": "price",
+      "name": "Price",
+      "type": "textRange"
+    },
+    {
+      "id": "name",
+      "name": "Name",
+      "type": "text"
+    },
+    {
+      "id": "attribute_set_id",
+      "name": "Attribute Set",
+      "type": "select",
+      "options": [
+        {
+          "value": "16",
+          "label": "Bag",
+          "__disableTmpl": true
+        },
+        {
+          "value": "11",
+          "label": "Bottom",
+          "__disableTmpl": true
+        },
+        {
+          "value": "9",
+          "label": "Clothes",
+          "__disableTmpl": true
+        },
+        {
+          "value": "4",
+          "label": "Default",
+          "__disableTmpl": true
+        },
+        {
+          "value": "15",
+          "label": "Downloadable",
+          "__disableTmpl": true
+        },
+        {
+          "value": "12",
+          "label": "Gear",
+          "__disableTmpl": true
+        },
+        {
+          "value": "13",
+          "label": "Sprite Stasis Ball",
+          "__disableTmpl": true
+        },
+        {
+          "value": "14",
+          "label": "Sprite Yoga Strap",
+          "__disableTmpl": true
+        },
+        {
+          "value": "10",
+          "label": "Top",
+          "__disableTmpl": true
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "name": "Status",
+      "type": "select",
+      "options": [
+        {
+          "value": "1",
+          "label": "Enabled"
+        },
+        {
+          "value": "2",
+          "label": "Disabled"
+        }
+      ]
+    },
+    {
+      "id": "type_id",
+      "name": "Type",
+      "type": "select",
+      "options": [
+        {
+          "value": "simple",
+          "label": "Simple Product"
+        },
+        {
+          "value": "virtual",
+          "label": "Virtual Product"
+        },
+        {
+          "value": "bundle",
+          "label": "Bundle Product"
+        },
+        {
+          "value": "downloadable",
+          "label": "Downloadable Product"
+        },
+        {
+          "value": "configurable",
+          "label": "Configurable Product"
+        },
+        {
+          "value": "grouped",
+          "label": "Grouped Product"
+        }
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "SKU",
+      "type": "text"
+    }
+  ],
+  "totalCount": 10,
+  "productCollectionData": [
+    {
+      "selected": false,
+      "entity_id": "10",
+      "thumbnail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/dc44fd555f0f15b16503c8f26697d1d3\/u\/n\/untitled-4.png",
+      "name": "Gray Coat",
+      "attrinuteSet": "Default",
+      "status": "Enabled",
+      "type": "Simple Product",
+      "sku": "Gray Coat",
+      "price": "$889.00"
+    },
+    {
+      "selected": false,
+      "entity_id": "29",
+      "thumbnail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/dc44fd555f0f15b16503c8f26697d1d3\/1\/_\/1.jpg",
+      "name": "T-shirt",
+      "attrinuteSet": "Default",
+      "status": "Enabled",
+      "type": "Configurable Product",
+      "sku": "T-shirt",
+      "price": "$0.00"
+    },
+    {
+      "selected": false,
+      "entity_id": "30",
+      "thumbnail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/dc44fd555f0f15b16503c8f26697d1d3\/b\/l\/black_jeans_1.jpg",
+      "name": "Black Jeans",
+      "attrinuteSet": "Default",
+      "status": "Enabled",
+      "type": "Simple Product",
+      "sku": "Black Jeans",
+      "price": "$100.00"
+    },
+    {
+      "selected": false,
+      "entity_id": "38",
+      "thumbnail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/dc44fd555f0f15b16503c8f26697d1d3\/f\/o\/formal.jpg",
+      "name": "Formal Shirt",
+      "attrinuteSet": "Default",
+      "status": "Enabled",
+      "type": "Simple Product",
+      "sku": "sdfdFormal Shirt",
+      "price": "$200.00"
+    },
+    {
+      "selected": false,
+      "entity_id": "43",
+      "thumbnail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/dc44fd555f0f15b16503c8f26697d1d3\/w\/a\/warner-woollen-muffler-.jpg",
+      "name": "Muffler for Men",
+      "attrinuteSet": "Default",
+      "status": "Enabled",
+      "type": "Simple Product",
+      "sku": "Muffler for Men",
+      "price": "$50.00"
+    },
+    {
+      "selected": false,
+      "entity_id": "53",
+      "thumbnail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/dc44fd555f0f15b16503c8f26697d1d3\/5\/1\/51wfgybhzgl._ul1500_.jpg",
+      "name": "Aarbee Men's Sweater",
+      "attrinuteSet": "Default",
+      "status": "Enabled",
+      "type": "Simple Product",
+      "sku": "Aarbee Men's Sweater",
+      "price": "$400.00"
+    },
+    {
+      "selected": false,
+      "entity_id": "55",
+      "thumbnail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/dc44fd555f0f15b16503c8f26697d1d3\/6\/1\/61xowyodk8l._ul1024_.jpg",
+      "name": "Full Sleeve Cotton T-Shirt-Red-L",
+      "attrinuteSet": "Default",
+      "status": "Enabled",
+      "type": "Simple Product",
+      "sku": "Full Sleeve Cotton T-Shirt-Red-L",
+      "price": "$250.00"
+    },
+    {
+      "selected": false,
+      "entity_id": "56",
+      "thumbnail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/dc44fd555f0f15b16503c8f26697d1d3\/6\/1\/61xowyodk8l._ul1024__1.jpg",
+      "name": "Full Sleeve Cotton T-Shirt-Red-M",
+      "attrinuteSet": "Default",
+      "status": "Enabled",
+      "type": "Simple Product",
+      "sku": "Full Sleeve Cotton T-Shirt-Red-M",
+      "price": "$250.00"
+    },
+    {
+      "selected": false,
+      "entity_id": "57",
+      "thumbnail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/dc44fd555f0f15b16503c8f26697d1d3\/6\/1\/613mko9gmul._ul1024_.jpg",
+      "name": "Full Sleeve Cotton T-Shirt-blue-L",
+      "attrinuteSet": "Default",
+      "status": "Enabled",
+      "type": "Simple Product",
+      "sku": "Full Sleeve Cotton T-Shirt-blue-L",
+      "price": "$250.00"
+    },
+    {
+      "selected": false,
+      "entity_id": "58",
+      "thumbnail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/dc44fd555f0f15b16503c8f26697d1d3\/6\/1\/613mko9gmul._ul1024__1.jpg",
+      "name": "Full Sleeve Cotton T-Shirt-blue-M",
+      "attrinuteSet": "Default",
+      "status": "Enabled",
+      "type": "Simple Product",
+      "sku": "Full Sleeve Cotton T-Shirt-blue-M",
+      "price": "$250.00"
+    }
+  ],
+  "eTag": "5047bab09b04682477fc1ed6ee44ebd83e40d2407ecf89747c469ed0950516fd"
+}

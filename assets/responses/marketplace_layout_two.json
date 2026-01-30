@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "message": "",
+  "pageLayout": "2",
+  "layout2": {
+    "displayBanner": true,
+    "bannerContent": "<h1>Have you got something exciting<\/h1><h2>Come On! Sell with us.<\/h2>",
+    "buttonLabel": "Open your shop",
+    "bannerImage": ""
+  },
+  "eTag": "fc579c9665e327adec21f5172a1bb6295d8b3c2a9ae34e767562c3008e6694c5"
+}

@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "message": "",
+  "pageLayout": "3",
+  "layout3": {
+    "displayBanner": true,
+    "bannerContent": "<h1>Sell with us<\/h1><h2>We are largest growing community to sell online, Come and Join us.<\/h2>",
+    "bannerImage": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/2835x1890\/marketplace\/banner\/sell-page-2-hero-banner.jpg",
+    "headingOne": "Really easy to setup and customize",
+    "displayIcon": true,
+    "iconOne": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/378x378\/marketplace\/icon\/sell-page-2-setup-1.png",
+    "labelOne": "Create an Account",
+    "iconTwo": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/378x378\/marketplace\/icon\/sell-page-2-setup-2.png",
+    "labelTwo": "Customize your Profile",
+    "iconThree": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/378x378\/marketplace\/icon\/sell-page-2-setup-3.png",
+    "labelThree": "Add your Details",
+    "iconFour": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/378x378\/marketplace\/icon\/sell-page-2-setup-4.png",
+    "labelFour": "Add your Product Listing",
+    "iconFive": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/378x378\/marketplace\/icon\/sell-page-2-setup-5.png",
+    "labelFive": "Sell your Product and Earn Profits",
+    "headingTwo": "Why to sell with us",
+    "headingThree": "Open your online shop & Explore a new world of market with more then millions of shoppers"
+  },
+  "eTag": "cf90d554a8b0fce559ad05c577ee4f6db8468e579bafc4b7b7b0fccaa0bc47a4"
+}

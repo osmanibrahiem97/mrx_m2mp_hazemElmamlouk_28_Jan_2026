@@ -1,0 +1,123 @@
+{
+  "success": true,
+  "message": "",
+  "mainHeading": "New Credit Memo",
+  "subHeading": "Order #000000109",
+  "status": "Complete",
+  "orderDate": "Apr 6, 2021, 8:29:18 AM",
+  "buyerInfoHeading": "Buyer Information",
+  "customerNameHeading": "Customer Name",
+  "customerName": "test user2",
+  "customerEmailHeading": "Email",
+  "customerEmail": "test23@webkul.com",
+  "orderInfoHeading": "Order Information",
+  "paymentMethodHeading": "Payment Method",
+  "paymentMethod": "Check \/ Money order",
+  "itemsRefundHeading": "ITEMS TO REFUND",
+  "itemsProductNameHeading": "Product Name",
+  "itemsPiceHeading": "Price",
+  "itemsQtyHeading": "Qty",
+  "itemsReturnToStockHeading": "Return to Stock",
+  "itemsQtyToRefundHeading": "Qty to Refund",
+  "itemsSubtotalHeading": "Subtotal",
+  "itemsCodHeading": "COD Charges",
+  "itemsTaxAmtHeading": "Tax Amount",
+  "itemsDiscountAmtHeading": "Discount Amount",
+  "itemsRowTotalHeading": "Row Total",
+  "itemList": [
+    {
+      "productName": "Shoes For men",
+      "customOption": [],
+      "downloadableOptionLable": "",
+      "downloadableOptionValue": [],
+      "sku": "\ufeffShoes For men",
+      "price": "$100.00",
+      "brandName": "",
+      "qty": [
+        {
+          "label": "Ordered",
+          "value": 1
+        },
+        {
+          "label": "Invoiced",
+          "value": 1
+        },
+        {
+          "label": "Shipped",
+          "value": 1
+        }
+      ],
+      "totalPrice": "$100.00",
+      "mpcodprice": "",
+      "adminCommission": "$20.00",
+      "vendorTotal": "$80.00",
+      "subTotal": "$100.00",
+      "totalTax": "$0.00",
+      "rowTotal": "$80.00",
+      "discount": "$20.00",
+      "itemId": "179"
+    },
+    {
+      "productName": " Lamp",
+      "customOption": [],
+      "downloadableOptionLable": "",
+      "downloadableOptionValue": [],
+      "sku": "Lamp-444",
+      "price": "$100.00",
+      "brandName": "",
+      "qty": [
+        {
+          "label": "Ordered",
+          "value": 1
+        },
+        {
+          "label": "Invoiced",
+          "value": 1
+        },
+        {
+          "label": "Shipped",
+          "value": 1
+        }
+      ],
+      "totalPrice": "$100.00",
+      "mpcodprice": "",
+      "adminCommission": "$20.00",
+      "vendorTotal": "$80.00",
+      "subTotal": "$100.00",
+      "totalTax": "$0.00",
+      "rowTotal": "$60.00",
+      "discount": "$40.00",
+      "itemId": "180"
+    }
+  ],
+  "paidAmountHeading": "Paid Amount",
+  "refundAmountHeading": "Refund Amount",
+  "shippingAmountHeading": "Shipping Amount",
+  "shippingRefundHeading": "Shipping Refund",
+  "orderGrandTotalHeading": "Order Grand Total",
+  "paidAmount": "$160.00",
+  "refundAmount": "$0.00",
+  "shippingAmount": "$0.00",
+  "shippingRefund": "$0.00",
+  "orderGrandTotal": "$160.00",
+  "creditMemoCommentHeading": "Credit Memo Comments",
+  "refundTotalHeading": "Refund Totals",
+  "subtotalHeading": "Subtotal",
+  "subTotal": "$200.00",
+  "discountHeading": "Discount",
+  "discount": "$40.00",
+  "totalTaxHeading": "Total Tax",
+  "totalTax": "$0.00",
+  "refundOnlineEnableFlag": false,
+  "refundShippingHeading": "Refund Shipping",
+  "adjustmentRefundHeading": "Adjustment Refund",
+  "adjustmentFeeHeading": "Adjustment Fee",
+  "grandTotalHeading": "Grand Total",
+  "grandTotal": "$160.00",
+  "invoiceId": "52",
+  "appendCommentsHeading": "Append Comments",
+  "visibleOnFrontendHeading": "Visible on Frontend",
+  "emailCopyHeading": "Email Copy of Credit Memo",
+  "refundOnlineButtonHeading": "Refund",
+  "refundOfflineButtonHeading": "Refund Offline"
+}

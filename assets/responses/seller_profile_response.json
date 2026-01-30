@@ -1,0 +1,1289 @@
+{
+  "success": true,
+  "message": "",
+  "showProfileHint": true,
+  "isTwitterActive": true,
+  "twitterId": "webkul",
+  "twitterHint": "Profile Twitter id",
+  "isFacebookActive": true,
+  "facebookId": "webkul",
+  "facebookHint": "Profile Facebook id",
+  "isInstagramActive": true,
+  "instagramId": "webkul",
+  "isgoogleplusActive": true,
+  "googleplusId": "webkul",
+  "isYoutubeActive": true,
+  "youtubeId": "webkul",
+  "vimeoId": "webkul",
+  "isPinterestActive": true,
+  "pinterestId": "webkul",
+  "contactNumber": "123-456-7890",
+  "contactNumberHint": "Profile Contact Number",
+  "taxvat": "245646464",
+  "taxvatHint": "Product Tax Types",
+  "backgroundColor": "#ffffff",
+  "backgroundColorHint": "Profile Background Color",
+  "shopTitle": "John's Store",
+  "shopTitleHint": "Profile Shop Name\t",
+  "bannerHint": "Profile Shop Banner Image",
+  "bannerImage": "https://mobikuldemo.webkul.com/mobikulmp/pub/media/avatar/banner-garments_1_2.jpg",
+  "profileImageHint": "Profile Company Logo\t",
+  "profileImage": "https://mobikuldemo.webkul.com/mobikulmp/pub/media/avatar/519857_1.png",
+  "companyLocalityHint": "Profile Company Locality",
+  "companyLocality": "New York, United States ",
+  "companyDescriptionHint": "Profile Company Description\t",
+  "companyDescription": "<p>Marketplace Multi-Vendor Module for Magento 2: Multi-Vendor Marketplace Extension converts your existing Magento 2 Store into a complete online shopping mall marketplace with multiple sellers. Using this extension, the suppliers/sellers can manage the inventory, shipment, Seller Profile page, Seller Collection page. The supplier/seller can add multiple types of products - Simple, Configurable, Virtual &amp; Downloadable. This extension is supported by many shipping &amp; payment add-ons including FedEx, USPS, DHL, PayPal, Stripe, Aramex.You can check out all the Shipping Modules and Payment Extensions. Also, Multi-Vendor Marketplace Mobile App (iOS, Andriod) is also available - Magento 2 Multi-Vendor Mobile App</p>",
+  "returnPolicyHint": "Return Policy",
+  "returnPolicy": "1. We do not accept returns or exchanges unless the item you purchased is defective.\r\n\r\n\r\n2. Customers are notified through email whether there are eligible for the return or not.\r\n\r\n\r\n3. If you are entitled to initiate a return, we will replace the product or refund the purchase price, using the original method of payment.\r\n\r\n\r\n4. Some items are non-refundable and non-exchangeable. These include: [list items].\r\n\r\n\r\n5. Returns do not include any shipping and handling charges shown on the packaging slip or invoice.\r\n\r\n\r\n",
+  "shippingPolicyHint": "Shipping Policy\t",
+  "shippingPolicy": "<p>1. Deliver a custom or template conversion design service as per the specifications submitted by the customer.</p>\r\n<p>2. Keep the customer informed on the progress and development of the project within the timescales agreed between Webkul and the customer.</p>\r\n<p>3. Provide the customer with access to a demo server during the delivery and acceptance phase</p>\r\n<p>4. Make any modifications to the design as outlined in the delivery and acceptance criteria as noted below.</p>\r\n<p>5. Prepare and release the design to be installed by the customer.</p>  ",
+  "privacyPolicy": "<p>Thank you for visiting <a href=\"http://webkul.com\">www.webkul.com</a> (together with its content, subdomains, software available for download, tools and services, the (“Site”), which is operated by  Webkul Software Private Limited . Your privacy is important to us. To better protect your privacy, we provide this privacy policy (“Privacy Policy”) explaining our online information practices and the choices you can make about the way your information is collected and used at this Site.</p>\r\n<ul>\r\n<li>\r\n<h5>INTRODUCTION</h5>\r\n<p>We are committed to respecting your online privacy and recognize your need for appropriate protection and management of any personally identifiable information (“Personal Information”) you share with us. “Personal Information” means any information that may be used, either alone or in combination with other information, to personally identify an individual, including, but not limited to, a first and last name, personal profile, a home or other physical address, an email address or other contact information.</p></li>\r\n<li>\r\n<h5>CONSENT AND MODIFICATION</h5>\r\n<p>By using this Site, you consent to the terms of our Privacy Policy and to Webkul Software Private Limited processing of Personal Information for the purposes set forth herein. If you do not agree to this Privacy Policy, please do not use our Site. We reserve the right, at our discretion, to change this Privacy Policy at any time, which change will be effective 30 days following posting the revised Privacy Policy on the Site. Your continued use of our Site 30 days following such posting means you will accept those changes.</p></li>\r\n<li>\r\n<h5>RECEIPT AND COLLECTION OF INFORMATION</h5>\r\n<p>We receive and/or collect information from you in the following ways:<br>\r\n<b>A. General Access to the Site</b>We do not currently require you to provide Personal Information in order to have access to general information available on our Site.<br>\r\n<b>B. Software Downloads</b>We offer you the opportunity to download certain software from the Site without charge. If you choose to do so, you may first be required to provide certain Personal Information (for example, by completing an online purchasing and pricing form), such as your name, email address, phone number, job title, company name, country, industry, total annual revenue, and number of employees.<br>\r\n<b>C. Purchases</b>If you choose to purchase a service or product from us we will require sufficient information from you to complete the transaction. Such information could include a credit card number and related account and billing information, invoice related information, and other data required to process the order. We may also update such data should you grant us permission to bill you or your credit card for recurring charges, such as monthly or other types of periodic payments. We may use the tools, software or services of third-party service providers to process transactions on our behalf (but we require that these parties agree to comply with this Privacy Policy). All information of this nature is maintained by us in a secure database and transmitted across the Internet from you to us using secured transmission encryption. Except as set forth herein, we will not share your financial Personal Information with any third person or entity.<br>\r\nWe may provide you, via the Site, with the opportunity to contact us, receive a Webkul Software Private Limited newsletter or participate in conferences, webinars, or special promotional or other programs (collectively “Events”). In order to participate in any of these Events, you will be required to provide certain Personal Information which may include your name, company, job title, address, email address, and phone number.<br>\r\n<b>D. Cookies and Other Tracking Technologies</b>Some of our Site pages utilize “cookies” and other tracking technologies. A “cookie” is a small text file that may be used, for example, to collect information about Site activity. Some cookies and other technologies may serve to recall Personal Information previously indicated by a Site user. You may block cookies, or delete existing cookies, by adjusting the appropriate setting on your browser. Please consult the HELP menu of your browser to learn how to do this. If you block or delete “cookies” you may find the usefulness of our Site to be impaired.<br>  ",
+  "countryHint": "Profile Country",
+  "country": "US",
+  "countryList": [
+    {
+      "value": "",
+      "label": " "
+    },
+    {
+      "value": "AF",
+      "label": "Afghanistan",
+      "is_region_visible": true
+    },
+    {
+      "value": "AX",
+      "label": "Åland Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "AL",
+      "label": "Albania",
+      "is_region_visible": true
+    },
+    {
+      "value": "DZ",
+      "label": "Algeria",
+      "is_region_visible": true
+    },
+    {
+      "value": "AS",
+      "label": "American Samoa",
+      "is_region_visible": true
+    },
+    {
+      "value": "AD",
+      "label": "Andorra",
+      "is_region_visible": true
+    },
+    {
+      "value": "AO",
+      "label": "Angola",
+      "is_region_visible": true
+    },
+    {
+      "value": "AI",
+      "label": "Anguilla",
+      "is_region_visible": true
+    },
+    {
+      "value": "AQ",
+      "label": "Antarctica",
+      "is_region_visible": true
+    },
+    {
+      "value": "AG",
+      "label": "Antigua & Barbuda",
+      "is_region_visible": true
+    },
+    {
+      "value": "AR",
+      "label": "Argentina",
+      "is_region_visible": true
+    },
+    {
+      "value": "AM",
+      "label": "Armenia",
+      "is_region_visible": true
+    },
+    {
+      "value": "AW",
+      "label": "Aruba",
+      "is_region_visible": true
+    },
+    {
+      "value": "AU",
+      "label": "Australia",
+      "is_region_required": true
+    },
+    {
+      "value": "AT",
+      "label": "Austria",
+      "is_region_visible": true
+    },
+    {
+      "value": "AZ",
+      "label": "Azerbaijan",
+      "is_region_visible": true
+    },
+    {
+      "value": "BS",
+      "label": "Bahamas",
+      "is_region_visible": true
+    },
+    {
+      "value": "BH",
+      "label": "Bahrain",
+      "is_region_visible": true
+    },
+    {
+      "value": "BD",
+      "label": "Bangladesh",
+      "is_region_visible": true
+    },
+    {
+      "value": "BB",
+      "label": "Barbados",
+      "is_region_visible": true
+    },
+    {
+      "value": "BY",
+      "label": "Belarus",
+      "is_region_visible": true
+    },
+    {
+      "value": "BE",
+      "label": "Belgium",
+      "is_region_visible": true
+    },
+    {
+      "value": "BZ",
+      "label": "Belize",
+      "is_region_visible": true
+    },
+    {
+      "value": "BJ",
+      "label": "Benin",
+      "is_region_visible": true
+    },
+    {
+      "value": "BM",
+      "label": "Bermuda",
+      "is_region_visible": true
+    },
+    {
+      "value": "BT",
+      "label": "Bhutan",
+      "is_region_visible": true
+    },
+    {
+      "value": "BO",
+      "label": "Bolivia",
+      "is_region_visible": true
+    },
+    {
+      "value": "BA",
+      "label": "Bosnia & Herzegovina",
+      "is_region_visible": true
+    },
+    {
+      "value": "BW",
+      "label": "Botswana",
+      "is_region_visible": true
+    },
+    {
+      "value": "BV",
+      "label": "Bouvet Island",
+      "is_region_visible": true
+    },
+    {
+      "value": "BR",
+      "label": "Brazil",
+      "is_region_required": true
+    },
+    {
+      "value": "IO",
+      "label": "British Indian Ocean Territory",
+      "is_region_visible": true
+    },
+    {
+      "value": "VG",
+      "label": "British Virgin Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "BN",
+      "label": "Brunei",
+      "is_region_visible": true
+    },
+    {
+      "value": "BG",
+      "label": "Bulgaria",
+      "is_region_visible": true
+    },
+    {
+      "value": "BF",
+      "label": "Burkina Faso",
+      "is_region_visible": true
+    },
+    {
+      "value": "BI",
+      "label": "Burundi",
+      "is_region_visible": true
+    },
+    {
+      "value": "KH",
+      "label": "Cambodia",
+      "is_region_visible": true
+    },
+    {
+      "value": "CM",
+      "label": "Cameroon",
+      "is_region_visible": true
+    },
+    {
+      "value": "CA",
+      "label": "Canada",
+      "is_region_required": true
+    },
+    {
+      "value": "CV",
+      "label": "Cape Verde",
+      "is_region_visible": true
+    },
+    {
+      "value": "KY",
+      "label": "Cayman Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "CF",
+      "label": "Central African Republic",
+      "is_region_visible": true
+    },
+    {
+      "value": "TD",
+      "label": "Chad",
+      "is_region_visible": true
+    },
+    {
+      "value": "CL",
+      "label": "Chile",
+      "is_region_visible": true
+    },
+    {
+      "value": "CN",
+      "label": "China",
+      "is_region_visible": true
+    },
+    {
+      "value": "CX",
+      "label": "Christmas Island",
+      "is_region_visible": true
+    },
+    {
+      "value": "CC",
+      "label": "Cocos (Keeling) Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "CO",
+      "label": "Colombia",
+      "is_region_visible": true
+    },
+    {
+      "value": "KM",
+      "label": "Comoros",
+      "is_region_visible": true
+    },
+    {
+      "value": "CG",
+      "label": "Congo - Brazzaville",
+      "is_region_visible": true
+    },
+    {
+      "value": "CD",
+      "label": "Congo - Kinshasa",
+      "is_region_visible": true
+    },
+    {
+      "value": "CK",
+      "label": "Cook Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "CR",
+      "label": "Costa Rica",
+      "is_region_visible": true
+    },
+    {
+      "value": "CI",
+      "label": "Côte d’Ivoire",
+      "is_region_visible": true
+    },
+    {
+      "value": "HR",
+      "label": "Croatia",
+      "is_region_required": true
+    },
+    {
+      "value": "CU",
+      "label": "Cuba",
+      "is_region_visible": true
+    },
+    {
+      "value": "CY",
+      "label": "Cyprus",
+      "is_region_visible": true
+    },
+    {
+      "value": "CZ",
+      "label": "Czechia",
+      "is_region_visible": true
+    },
+    {
+      "value": "DK",
+      "label": "Denmark",
+      "is_region_visible": true
+    },
+    {
+      "value": "DJ",
+      "label": "Djibouti",
+      "is_region_visible": true
+    },
+    {
+      "value": "DM",
+      "label": "Dominica",
+      "is_region_visible": true
+    },
+    {
+      "value": "DO",
+      "label": "Dominican Republic",
+      "is_region_visible": true
+    },
+    {
+      "value": "EC",
+      "label": "Ecuador",
+      "is_region_visible": true
+    },
+    {
+      "value": "EG",
+      "label": "Egypt",
+      "is_region_visible": true
+    },
+    {
+      "value": "SV",
+      "label": "El Salvador",
+      "is_region_visible": true
+    },
+    {
+      "value": "GQ",
+      "label": "Equatorial Guinea",
+      "is_region_visible": true
+    },
+    {
+      "value": "ER",
+      "label": "Eritrea",
+      "is_region_visible": true
+    },
+    {
+      "value": "EE",
+      "label": "Estonia",
+      "is_region_required": true
+    },
+    {
+      "value": "SZ",
+      "label": "Eswatini",
+      "is_region_visible": true
+    },
+    {
+      "value": "ET",
+      "label": "Ethiopia",
+      "is_region_visible": true
+    },
+    {
+      "value": "FK",
+      "label": "Falkland Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "FO",
+      "label": "Faroe Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "FJ",
+      "label": "Fiji",
+      "is_region_visible": true
+    },
+    {
+      "value": "FI",
+      "label": "Finland",
+      "is_region_visible": true
+    },
+    {
+      "value": "FR",
+      "label": "France",
+      "is_region_visible": true
+    },
+    {
+      "value": "GF",
+      "label": "French Guiana",
+      "is_region_visible": true
+    },
+    {
+      "value": "PF",
+      "label": "French Polynesia",
+      "is_region_visible": true
+    },
+    {
+      "value": "TF",
+      "label": "French Southern Territories",
+      "is_region_visible": true
+    },
+    {
+      "value": "GA",
+      "label": "Gabon",
+      "is_region_visible": true
+    },
+    {
+      "value": "GM",
+      "label": "Gambia",
+      "is_region_visible": true
+    },
+    {
+      "value": "GE",
+      "label": "Georgia",
+      "is_region_visible": true
+    },
+    {
+      "value": "DE",
+      "label": "Germany",
+      "is_region_visible": true
+    },
+    {
+      "value": "GH",
+      "label": "Ghana",
+      "is_region_visible": true
+    },
+    {
+      "value": "GI",
+      "label": "Gibraltar",
+      "is_region_visible": true
+    },
+    {
+      "value": "GR",
+      "label": "Greece",
+      "is_region_visible": true
+    },
+    {
+      "value": "GL",
+      "label": "Greenland",
+      "is_region_visible": true
+    },
+    {
+      "value": "GD",
+      "label": "Grenada",
+      "is_region_visible": true
+    },
+    {
+      "value": "GP",
+      "label": "Guadeloupe",
+      "is_region_visible": true
+    },
+    {
+      "value": "GU",
+      "label": "Guam",
+      "is_region_visible": true
+    },
+    {
+      "value": "GT",
+      "label": "Guatemala",
+      "is_region_visible": true
+    },
+    {
+      "value": "GG",
+      "label": "Guernsey",
+      "is_region_visible": true
+    },
+    {
+      "value": "GN",
+      "label": "Guinea",
+      "is_region_visible": true
+    },
+    {
+      "value": "GW",
+      "label": "Guinea-Bissau",
+      "is_region_visible": true
+    },
+    {
+      "value": "GY",
+      "label": "Guyana",
+      "is_region_visible": true
+    },
+    {
+      "value": "HT",
+      "label": "Haiti",
+      "is_region_visible": true
+    },
+    {
+      "value": "HM",
+      "label": "Heard & McDonald Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "HN",
+      "label": "Honduras",
+      "is_region_visible": true
+    },
+    {
+      "value": "HK",
+      "label": "Hong Kong SAR China",
+      "is_region_visible": true,
+      "is_zipcode_optional": true
+    },
+    {
+      "value": "HU",
+      "label": "Hungary",
+      "is_region_visible": true
+    },
+    {
+      "value": "IS",
+      "label": "Iceland",
+      "is_region_visible": true
+    },
+    {
+      "value": "IN",
+      "label": "India",
+      "is_region_required": true
+    },
+    {
+      "value": "ID",
+      "label": "Indonesia",
+      "is_region_visible": true
+    },
+    {
+      "value": "IR",
+      "label": "Iran",
+      "is_region_visible": true
+    },
+    {
+      "value": "IQ",
+      "label": "Iraq",
+      "is_region_visible": true
+    },
+    {
+      "value": "IE",
+      "label": "Ireland",
+      "is_region_visible": true,
+      "is_zipcode_optional": true
+    },
+    {
+      "value": "IM",
+      "label": "Isle of Man",
+      "is_region_visible": true
+    },
+    {
+      "value": "IL",
+      "label": "Israel",
+      "is_region_visible": true
+    },
+    {
+      "value": "IT",
+      "label": "Italy",
+      "is_region_visible": true
+    },
+    {
+      "value": "JM",
+      "label": "Jamaica",
+      "is_region_visible": true
+    },
+    {
+      "value": "JP",
+      "label": "Japan",
+      "is_region_visible": true
+    },
+    {
+      "value": "JE",
+      "label": "Jersey",
+      "is_region_visible": true
+    },
+    {
+      "value": "JO",
+      "label": "Jordan",
+      "is_region_visible": true
+    },
+    {
+      "value": "KZ",
+      "label": "Kazakhstan",
+      "is_region_visible": true
+    },
+    {
+      "value": "KE",
+      "label": "Kenya",
+      "is_region_visible": true
+    },
+    {
+      "value": "KI",
+      "label": "Kiribati",
+      "is_region_visible": true
+    },
+    {
+      "value": "KW",
+      "label": "Kuwait",
+      "is_region_visible": true
+    },
+    {
+      "value": "KG",
+      "label": "Kyrgyzstan",
+      "is_region_visible": true
+    },
+    {
+      "value": "LA",
+      "label": "Laos",
+      "is_region_visible": true
+    },
+    {
+      "value": "LV",
+      "label": "Latvia",
+      "is_region_required": true
+    },
+    {
+      "value": "LB",
+      "label": "Lebanon",
+      "is_region_visible": true
+    },
+    {
+      "value": "LS",
+      "label": "Lesotho",
+      "is_region_visible": true
+    },
+    {
+      "value": "LR",
+      "label": "Liberia",
+      "is_region_visible": true
+    },
+    {
+      "value": "LY",
+      "label": "Libya",
+      "is_region_visible": true
+    },
+    {
+      "value": "LI",
+      "label": "Liechtenstein",
+      "is_region_visible": true
+    },
+    {
+      "value": "LT",
+      "label": "Lithuania",
+      "is_region_required": true
+    },
+    {
+      "value": "LU",
+      "label": "Luxembourg",
+      "is_region_visible": true
+    },
+    {
+      "value": "MO",
+      "label": "Macao SAR China",
+      "is_region_visible": true,
+      "is_zipcode_optional": true
+    },
+    {
+      "value": "MG",
+      "label": "Madagascar",
+      "is_region_visible": true
+    },
+    {
+      "value": "MW",
+      "label": "Malawi",
+      "is_region_visible": true
+    },
+    {
+      "value": "MY",
+      "label": "Malaysia",
+      "is_region_visible": true
+    },
+    {
+      "value": "MV",
+      "label": "Maldives",
+      "is_region_visible": true
+    },
+    {
+      "value": "ML",
+      "label": "Mali",
+      "is_region_visible": true
+    },
+    {
+      "value": "MT",
+      "label": "Malta",
+      "is_region_visible": true
+    },
+    {
+      "value": "MH",
+      "label": "Marshall Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "MQ",
+      "label": "Martinique",
+      "is_region_visible": true
+    },
+    {
+      "value": "MR",
+      "label": "Mauritania",
+      "is_region_visible": true
+    },
+    {
+      "value": "MU",
+      "label": "Mauritius",
+      "is_region_visible": true
+    },
+    {
+      "value": "YT",
+      "label": "Mayotte",
+      "is_region_visible": true
+    },
+    {
+      "value": "MX",
+      "label": "Mexico",
+      "is_region_required": true
+    },
+    {
+      "value": "FM",
+      "label": "Micronesia",
+      "is_region_visible": true
+    },
+    {
+      "value": "MD",
+      "label": "Moldova",
+      "is_region_visible": true
+    },
+    {
+      "value": "MC",
+      "label": "Monaco",
+      "is_region_visible": true
+    },
+    {
+      "value": "MN",
+      "label": "Mongolia",
+      "is_region_visible": true
+    },
+    {
+      "value": "ME",
+      "label": "Montenegro",
+      "is_region_visible": true
+    },
+    {
+      "value": "MS",
+      "label": "Montserrat",
+      "is_region_visible": true
+    },
+    {
+      "value": "MA",
+      "label": "Morocco",
+      "is_region_visible": true
+    },
+    {
+      "value": "MZ",
+      "label": "Mozambique",
+      "is_region_visible": true
+    },
+    {
+      "value": "MM",
+      "label": "Myanmar (Burma)",
+      "is_region_visible": true
+    },
+    {
+      "value": "NA",
+      "label": "Namibia",
+      "is_region_visible": true
+    },
+    {
+      "value": "NR",
+      "label": "Nauru",
+      "is_region_visible": true
+    },
+    {
+      "value": "NP",
+      "label": "Nepal",
+      "is_region_visible": true
+    },
+    {
+      "value": "NL",
+      "label": "Netherlands",
+      "is_region_visible": true
+    },
+    {
+      "value": "NC",
+      "label": "New Caledonia",
+      "is_region_visible": true
+    },
+    {
+      "value": "NZ",
+      "label": "New Zealand",
+      "is_region_visible": true
+    },
+    {
+      "value": "NI",
+      "label": "Nicaragua",
+      "is_region_visible": true
+    },
+    {
+      "value": "NE",
+      "label": "Niger",
+      "is_region_visible": true
+    },
+    {
+      "value": "NG",
+      "label": "Nigeria",
+      "is_region_visible": true
+    },
+    {
+      "value": "NU",
+      "label": "Niue",
+      "is_region_visible": true
+    },
+    {
+      "value": "NF",
+      "label": "Norfolk Island",
+      "is_region_visible": true
+    },
+    {
+      "value": "MP",
+      "label": "Northern Mariana Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "KP",
+      "label": "North Korea",
+      "is_region_visible": true
+    },
+    {
+      "value": "MK",
+      "label": "North Macedonia",
+      "is_region_visible": true
+    },
+    {
+      "value": "NO",
+      "label": "Norway",
+      "is_region_visible": true
+    },
+    {
+      "value": "OM",
+      "label": "Oman",
+      "is_region_visible": true
+    },
+    {
+      "value": "PK",
+      "label": "Pakistan",
+      "is_region_visible": true
+    },
+    {
+      "value": "PW",
+      "label": "Palau",
+      "is_region_visible": true
+    },
+    {
+      "value": "PS",
+      "label": "Palestinian Territories",
+      "is_region_visible": true
+    },
+    {
+      "value": "PA",
+      "label": "Panama",
+      "is_region_visible": true,
+      "is_zipcode_optional": true
+    },
+    {
+      "value": "PG",
+      "label": "Papua New Guinea",
+      "is_region_visible": true
+    },
+    {
+      "value": "PY",
+      "label": "Paraguay",
+      "is_region_visible": true
+    },
+    {
+      "value": "PE",
+      "label": "Peru",
+      "is_region_visible": true
+    },
+    {
+      "value": "PH",
+      "label": "Philippines",
+      "is_region_visible": true
+    },
+    {
+      "value": "PN",
+      "label": "Pitcairn Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "PL",
+      "label": "Poland",
+      "is_region_visible": true
+    },
+    {
+      "value": "PT",
+      "label": "Portugal",
+      "is_region_visible": true
+    },
+    {
+      "value": "QA",
+      "label": "Qatar",
+      "is_region_visible": true
+    },
+    {
+      "value": "RE",
+      "label": "Réunion",
+      "is_region_visible": true
+    },
+    {
+      "value": "RO",
+      "label": "Romania",
+      "is_region_required": true
+    },
+    {
+      "value": "RU",
+      "label": "Russia",
+      "is_region_visible": true
+    },
+    {
+      "value": "RW",
+      "label": "Rwanda",
+      "is_region_visible": true
+    },
+    {
+      "value": "WS",
+      "label": "Samoa",
+      "is_region_visible": true
+    },
+    {
+      "value": "SM",
+      "label": "San Marino",
+      "is_region_visible": true
+    },
+    {
+      "value": "ST",
+      "label": "São Tomé & Príncipe",
+      "is_region_visible": true
+    },
+    {
+      "value": "SA",
+      "label": "Saudi Arabia",
+      "is_region_visible": true
+    },
+    {
+      "value": "SN",
+      "label": "Senegal",
+      "is_region_visible": true
+    },
+    {
+      "value": "RS",
+      "label": "Serbia",
+      "is_region_visible": true
+    },
+    {
+      "value": "SC",
+      "label": "Seychelles",
+      "is_region_visible": true
+    },
+    {
+      "value": "SL",
+      "label": "Sierra Leone",
+      "is_region_visible": true
+    },
+    {
+      "value": "SG",
+      "label": "Singapore",
+      "is_region_visible": true
+    },
+    {
+      "value": "SK",
+      "label": "Slovakia",
+      "is_region_visible": true
+    },
+    {
+      "value": "SI",
+      "label": "Slovenia",
+      "is_region_visible": true
+    },
+    {
+      "value": "SB",
+      "label": "Solomon Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "SO",
+      "label": "Somalia",
+      "is_region_visible": true
+    },
+    {
+      "value": "ZA",
+      "label": "South Africa",
+      "is_region_visible": true
+    },
+    {
+      "value": "GS",
+      "label": "South Georgia & South Sandwich Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "KR",
+      "label": "South Korea",
+      "is_region_visible": true
+    },
+    {
+      "value": "ES",
+      "label": "Spain",
+      "is_region_required": true
+    },
+    {
+      "value": "LK",
+      "label": "Sri Lanka",
+      "is_region_visible": true
+    },
+    {
+      "value": "BL",
+      "label": "St. Barthélemy",
+      "is_region_visible": true
+    },
+    {
+      "value": "SH",
+      "label": "St. Helena",
+      "is_region_visible": true
+    },
+    {
+      "value": "KN",
+      "label": "St. Kitts & Nevis",
+      "is_region_visible": true
+    },
+    {
+      "value": "LC",
+      "label": "St. Lucia",
+      "is_region_visible": true
+    },
+    {
+      "value": "MF",
+      "label": "St. Martin",
+      "is_region_visible": true
+    },
+    {
+      "value": "PM",
+      "label": "St. Pierre & Miquelon",
+      "is_region_visible": true
+    },
+    {
+      "value": "VC",
+      "label": "St. Vincent & Grenadines",
+      "is_region_visible": true
+    },
+    {
+      "value": "SD",
+      "label": "Sudan",
+      "is_region_visible": true
+    },
+    {
+      "value": "SR",
+      "label": "Suriname",
+      "is_region_visible": true
+    },
+    {
+      "value": "SJ",
+      "label": "Svalbard & Jan Mayen",
+      "is_region_visible": true
+    },
+    {
+      "value": "SE",
+      "label": "Sweden",
+      "is_region_visible": true
+    },
+    {
+      "value": "CH",
+      "label": "Switzerland",
+      "is_region_required": true
+    },
+    {
+      "value": "SY",
+      "label": "Syria",
+      "is_region_visible": true
+    },
+    {
+      "value": "TW",
+      "label": "Taiwan",
+      "is_region_visible": true
+    },
+    {
+      "value": "TJ",
+      "label": "Tajikistan",
+      "is_region_visible": true
+    },
+    {
+      "value": "TZ",
+      "label": "Tanzania",
+      "is_region_visible": true
+    },
+    {
+      "value": "TH",
+      "label": "Thailand",
+      "is_region_visible": true
+    },
+    {
+      "value": "TL",
+      "label": "Timor-Leste",
+      "is_region_visible": true
+    },
+    {
+      "value": "TG",
+      "label": "Togo",
+      "is_region_visible": true
+    },
+    {
+      "value": "TK",
+      "label": "Tokelau",
+      "is_region_visible": true
+    },
+    {
+      "value": "TO",
+      "label": "Tonga",
+      "is_region_visible": true
+    },
+    {
+      "value": "TT",
+      "label": "Trinidad & Tobago",
+      "is_region_visible": true
+    },
+    {
+      "value": "TN",
+      "label": "Tunisia",
+      "is_region_visible": true
+    },
+    {
+      "value": "TR",
+      "label": "Turkey",
+      "is_region_visible": true
+    },
+    {
+      "value": "TM",
+      "label": "Turkmenistan",
+      "is_region_visible": true
+    },
+    {
+      "value": "TC",
+      "label": "Turks & Caicos Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "TV",
+      "label": "Tuvalu",
+      "is_region_visible": true
+    },
+    {
+      "value": "UG",
+      "label": "Uganda",
+      "is_region_visible": true
+    },
+    {
+      "value": "UA",
+      "label": "Ukraine",
+      "is_region_visible": true
+    },
+    {
+      "value": "AE",
+      "label": "United Arab Emirates",
+      "is_region_visible": true
+    },
+    {
+      "value": "GB",
+      "label": "United Kingdom",
+      "is_region_visible": true,
+      "is_zipcode_optional": true
+    },
+    {
+      "value": "US",
+      "label": "United States",
+      "is_region_required": true,
+      "is_default": true
+    },
+    {
+      "value": "UY",
+      "label": "Uruguay",
+      "is_region_visible": true
+    },
+    {
+      "value": "UM",
+      "label": "U.S. Outlying Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "VI",
+      "label": "U.S. Virgin Islands",
+      "is_region_visible": true
+    },
+    {
+      "value": "UZ",
+      "label": "Uzbekistan",
+      "is_region_visible": true
+    },
+    {
+      "value": "VU",
+      "label": "Vanuatu",
+      "is_region_visible": true
+    },
+    {
+      "value": "VA",
+      "label": "Vatican City",
+      "is_region_visible": true
+    },
+    {
+      "value": "VE",
+      "label": "Venezuela",
+      "is_region_visible": true
+    },
+    {
+      "value": "VN",
+      "label": "Vietnam",
+      "is_region_visible": true
+    },
+    {
+      "value": "WF",
+      "label": "Wallis & Futuna",
+      "is_region_visible": true
+    },
+    {
+      "value": "EH",
+      "label": "Western Sahara",
+      "is_region_visible": true
+    },
+    {
+      "value": "YE",
+      "label": "Yemen",
+      "is_region_visible": true
+    },
+    {
+      "value": "ZM",
+      "label": "Zambia",
+      "is_region_visible": true
+    },
+    {
+      "value": "ZW",
+      "label": "Zimbabwe",
+      "is_region_visible": true
+    }
+  ],
+  "flagImageUrl": "https://mobikuldemo.webkul.com/mobikulmp/pub/static/frontend/Magento/luma/en_US/Webkul_Marketplace/images/country/countryflags",
+  "metaKeywordHint": "Profile Meta Keywords",
+  "metaKeyword": "Magento2 Marketplace , Multi Vendor Module                  ",
+  "metaDescriptionHint": "Profile Meta Description\t",
+  "metaDescription": "Magento Marketplace Multi Vendor Module : Marketplace Extension will convert your magento store in to Marketplace with separate seller product collection and separate seller with feedback support rating and commissions . Marketplace Plugin is also supported by many shipping and payment add-ons including fedex, UPS , USPS and many more payment methods like Paypal adaptive, stripe marketplace, Mangopay and many other marketplace payment API's . Working with All the Templates ( Including Responsive Themes) and source code is Open so can be easily customised                                                                                         ",
+  "paymentDetailsHint": "Profile Payment Information",
+  "paymentDetails": "Axis Bank\r\nNoida-62\r\nA/C - 1234567890, , ",
+  "isColorPickerEnabled": true,
+  "isSellerPolicyEnabled": true,
+  "eTag": "8abd55ddad7082c709cabfec3b7eb7e2a6d314155bdb35a2599d0fb7b295936d",
+  "pickUpLatitude": null,
+  "pickUpLongitude": null,
+  "pickUpAddress": null,
+  "isMPDeliveryBoyEnabled": true
+}

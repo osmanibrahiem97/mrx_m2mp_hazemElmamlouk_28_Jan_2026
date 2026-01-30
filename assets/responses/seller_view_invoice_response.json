@@ -1,0 +1,154 @@
+{
+  "success": true,
+  "message": "",
+  "mainHeading": "View Invoice Details",
+  "subHeading": "Invoice #000000054",
+  "invoiceStatus": "Paid",
+  "invoiceDate": "May 9, 2023, 10:05:17 AM",
+  "actionButtons": [
+    {
+      "label": "Send Email",
+      "title": "Send Email To Customer",
+      "confirmMsg": "Are you sure you want to send invoice email to customer?"
+    },
+    {
+      "label": "Print Invoice",
+      "title": "Invoice Slip"
+    }
+  ],
+  "orderInfoHeading": "Order Information",
+  "orderHeading": "Order # 000000130",
+  "orderStatusHeading": "Order Status",
+  "orderStatus": "complete",
+  "orderDateHeading": "Order Date",
+  "orderDate": "May 9, 2023, 10:03:45 AM",
+  "showBuyerInformation": true,
+  "buyerInfoHeading": "Buyer Information",
+  "customerNameHeading": "Customer Name",
+  "customerName": "John Doe",
+  "customerEmailHeading": "Email",
+  "customerEmail": "Johndoe@example.com",
+  "State": "complete",
+  "StatusColorCode": "#19A709",
+  "addressinfoHeading": "Address Information",
+  "showAddressInformation": true,
+  "billingAddressHeading": "Billing Address",
+  "billingAddress": "John Doe<br \/>\n\n2289<br \/>\nRosewood Lane<br \/>\n\n\nNew York,  New York, 10004<br \/>\nUnited States<br \/>\nT: <a href=\"tel:212-943-3917\">212-943-3917<\/a>\n\n<br \/>VAT: 215144561654",
+  "paymentAndShippingHeading": "Payment & Shipping Method",
+  "paymentInfoHeading": "Payment Information",
+  "paymentMethod": "Check \/ Money order",
+  "itemInvoicedHeading": "Items Invoiced",
+  "itemList": [
+    {
+      "productName": "Aarbee Men&#039;s Sweater",
+      "customOption": [
+      ],
+      "downloadableOptionLable": "",
+      "downloadableOptionValue": [
+      ],
+      "sku": "Aarbee Men's Sweater",
+      "price": "$400.00",
+      "qty": [
+        {
+          "label": "Ordered",
+          "value": 1
+        },
+        {
+          "label": "Invoiced",
+          "value": 1
+        },
+        {
+          "label": "Shipped",
+          "value": 1
+        }
+      ],
+      "totalPrice": "$400.00",
+      "mpcodprice": "",
+      "adminCommission": "$80.00",
+      "vendorTotal": "$320.00",
+      "subTotal": "$400.00"
+    },
+    {
+      "productName": " Lamp",
+      "customOption": [],
+      "downloadableOptionLable": "",
+      "downloadableOptionValue": [],
+      "sku": "Lamp-444",
+      "price": "$100.00",
+      "qty": [
+        {
+          "label": "Ordered",
+          "value": 1
+        },
+        {
+          "label": "Invoiced",
+          "value": 1
+        },
+        {
+          "label": "Shipped",
+          "value": 1
+        }
+      ],
+      "totalPrice": "$100.00",
+      "mpcodprice": "",
+      "adminCommission": "$20.00",
+      "vendorTotal": "$80.00",
+      "subTotal": "$100.00"
+    }
+
+  ],
+  "totals": [
+    {
+      "code": "subtotal",
+      "label": "Subtotal",
+      "value": "483.0000",
+      "formattedValue": "$483.00"
+    },
+    {
+      "code": "discount",
+      "label": "Discount",
+      "value": "-96.6000",
+      "formattedValue": "-$96.60"
+    },
+    {
+      "code": "grand_total",
+      "label": "Grand Total",
+      "value": "386.4000",
+      "formattedValue": "$386.40"
+    },
+    {
+      "code": "shipping",
+      "label": "Shipping",
+      "value": "0",
+      "formattedValue": "$0.00"
+    },
+    {
+      "code": "tax",
+      "label": "Tax",
+      "value": "0",
+      "formattedValue": "$0.00"
+    },
+    {
+      "code": "vendorTotal",
+      "label": "Vendor Total",
+      "value": "0",
+      "formattedValue": "$0.00",
+      "formattedBaseTotal": ""
+    },
+    {
+      "code": "adminCommission",
+      "label": "Admin Commission",
+      "value": "0",
+      "formattedValue": "$0.00",
+      "formattedBaseTotal": ""
+    }
+  ],
+  "cartTotal": "$386.40",
+  "adminTotalTax": [
+    0
+  ],
+  "vendorTotalTax": [
+    0
+  ],
+  "eTag": "719d74adb91a5dc161cc793a98bfd4bd1dddc641ace21fd7683b21ca66b47fb5"
+}

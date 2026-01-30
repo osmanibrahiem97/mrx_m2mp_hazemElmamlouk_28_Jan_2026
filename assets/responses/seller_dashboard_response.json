@@ -1,0 +1,417 @@
+{
+  "success": true,
+  "message": "",
+  "dailySalesLocationReport": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/mobikulmphttp\/marketplace\/dashboard_tunnel\/?encrypted_data=15c1d96beede2073319a1933053d40893315cf5662075abbdc6e1bd94052712a&param_data=eyJjaHQiOiJtYXA6Zml4ZWQ9LTYwLC0xODAsODUsMTgwIiwiY2htYSI6IjAsMTEwLDAsMCIsImNobSI6IiIsImNobGQiOiIiLCJjaGRsIjoiIiwiY2hjbyI6IkIzQkNDMCIsImNocyI6IjY1MHgzNTAifQ%253D%253D",
+  "yearlySalesLocationReport": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/mobikulmphttp\/marketplace\/dashboard_tunnel\/?encrypted_data=15c1d96beede2073319a1933053d40893315cf5662075abbdc6e1bd94052712a&param_data=eyJjaHQiOiJtYXA6Zml4ZWQ9LTYwLC0xODAsODUsMTgwIiwiY2htYSI6IjAsMTEwLDAsMCIsImNobSI6IiIsImNobGQiOiIiLCJjaGRsIjoiIiwiY2hjbyI6IkIzQkNDMCIsImNocyI6IjY1MHgzNTAifQ%253D%253D",
+  "monthlySalesLocationReport": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/mobikulmphttp\/marketplace\/dashboard_tunnel\/?encrypted_data=15c1d96beede2073319a1933053d40893315cf5662075abbdc6e1bd94052712a&param_data=eyJjaHQiOiJtYXA6Zml4ZWQ9LTYwLC0xODAsODUsMTgwIiwiY2htYSI6IjAsMTEwLDAsMCIsImNobSI6IiIsImNobGQiOiIiLCJjaGRsIjoiIiwiY2hjbyI6IkIzQkNDMCIsImNocyI6IjY1MHgzNTAifQ%253D%253D",
+  "weeklySalesLocationReport": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/mobikulmphttp\/marketplace\/dashboard_tunnel\/?encrypted_data=15c1d96beede2073319a1933053d40893315cf5662075abbdc6e1bd94052712a&param_data=eyJjaHQiOiJtYXA6Zml4ZWQ9LTYwLC0xODAsODUsMTgwIiwiY2htYSI6IjAsMTEwLDAsMCIsImNobSI6IiIsImNobGQiOiIiLCJjaGRsIjoiIiwiY2hjbyI6IkIzQkNDMCIsImNocyI6IjY1MHgzNTAifQ%253D%253D",
+  "salesStats": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/mobikulmphttp\/marketplace\/dashboard_tunnel\/?encrypted_data=dea589ee2b54c6d02d1531ceb1b40ee5bcdd6ece7ea945dae759c5104f00f29d&param_data=eyJjaHQiOiJidnMiLCJjaG0iOiJOLDAwMDAwMCwwLC0xLDExIiwiY2hmIjoiYmcscyxmZmZmZmYiLCJjaHh0IjoieCx5IiwiY2hkcyI6ImEiLCJjaGJoIjoiNTUiLCJjaGNvIjoiZWY2NzJmIiwiY2h4bCI6IjA6fEphbnVhcnl8RmVicnVhcnl8TWFyY2h8QXByaWx8TWF5IiwiY2hkIjoidDowLDAsMCwwLDAiLCJjaHMiOiI4MDB4Mzc1In0%253D",
+  "dailySalesStats": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/mobikulmphttp\/marketplace\/dashboard_tunnel\/?encrypted_data=07f67d38be5d9046f14de0a96074f76ba85d2d7567484e35f6fd6b945b5ebea1&param_data=eyJjaHQiOiJidnMiLCJjaG0iOiJOLDAwMDAwMCwwLC0xLDExIiwiY2hmIjoiYmcscyxmZmZmZmYiLCJjaHh0IjoieCx5IiwiY2hkcyI6ImEiLCJjaGJoIjoiNTUiLCJjaGNvIjoiZWY2NzJmIiwiY2h4bCI6IjA6fDE6MDAgUE18NDowMCBQTXw3OjAwIFBNfDEwOjAwIFBNIiwiY2hkIjoidDowLDAsMCwwIiwiY2hzIjoiODAweDM3NSJ9",
+  "weeklySalesStats": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/mobikulmphttp\/marketplace\/dashboard_tunnel\/?encrypted_data=d7650d3ea537c153cdcfa8b8898f937338b011e0b611cf5adcc6c3bf8994d60a&param_data=eyJjaHQiOiJidnMiLCJjaG0iOiJOLDAwMDAwMCwwLC0xLDExIiwiY2hmIjoiYmcscyxmZmZmZmYiLCJjaHh0IjoieCx5IiwiY2hkcyI6ImEiLCJjaGJoIjoiNTUiLCJjaGNvIjoiZWY2NzJmIiwiY2h4bCI6IjA6fDA1XC84XC8yMDIzIiwiY2hkIjoidDowIiwiY2hzIjoiODAweDM3NSJ9",
+  "yearlySalesStats": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/mobikulmphttp\/marketplace\/dashboard_tunnel\/?encrypted_data=dea589ee2b54c6d02d1531ceb1b40ee5bcdd6ece7ea945dae759c5104f00f29d&param_data=eyJjaHQiOiJidnMiLCJjaG0iOiJOLDAwMDAwMCwwLC0xLDExIiwiY2hmIjoiYmcscyxmZmZmZmYiLCJjaHh0IjoieCx5IiwiY2hkcyI6ImEiLCJjaGJoIjoiNTUiLCJjaGNvIjoiZWY2NzJmIiwiY2h4bCI6IjA6fEphbnVhcnl8RmVicnVhcnl8TWFyY2h8QXByaWx8TWF5IiwiY2hkIjoidDowLDAsMCwwLDAiLCJjaHMiOiI4MDB4Mzc1In0%253D",
+  "monthlySalesStats": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/mobikulmphttp\/marketplace\/dashboard_tunnel\/?encrypted_data=5ca0d152d7b821d235ebabfb015337fc7af13320701117e98d2e51189ad5cbe5&param_data=eyJjaHQiOiJidnMiLCJjaG0iOiJOLDAwMDAwMCwwLC0xLDExIiwiY2hmIjoiYmcscyxmZmZmZmYiLCJjaHh0IjoieCx5IiwiY2hkcyI6ImEiLCJjaGJoIjoiNTUiLCJjaGNvIjoiZWY2NzJmIiwiY2h4bCI6IjA6fDA1XC8xXC8yMDIzfDA1XC8yXC8yMDIzfDA1XC8zXC8yMDIzfDA1XC80XC8yMDIzfDA1XC84XC8yMDIzIiwiY2hkIjoidDowLDAsMCwwLDAiLCJjaHMiOiI4MDB4Mzc1In0%253D",
+  "totalPayout": "$1,990.20",
+  "lifetimeSale": "$4,212.35",
+  "remainingAmount": "$2,222.15",
+  "topSellingProducts": [
+    {
+      "reviewCount": 0,
+      "configurableData": {},
+      "isInWishlist": false,
+      "wishlistItemId": 0,
+      "typeId": "simple",
+      "entityId": "2",
+      "rating": 0,
+      "isAvailable": false,
+      "price": 345,
+      "finalPrice": 345,
+      "formattedPrice": "$345.00",
+      "formattedFinalPrice": "$345.00",
+      "name": "Blue Coat",
+      "hasRequiredOptions": false,
+      "isNew": false,
+      "isInRange": false,
+      "thumbNail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/static\/frontend\/Magento\/luma\/en_US\/Magento_Catalog\/images\/product\/placeholder\/thumbnail.jpg",
+      "dominantColor": "#f4f4f4",
+      "tierPrice": "",
+      "formattedTierPrice": "",
+      "minAddToCartQty": 1,
+      "availability": "Out of stock",
+      "arUrl": "",
+      "arType": "2D",
+      "arTextureImages": [],
+      "salesQty": "17"
+    },
+    {
+      "reviewCount": 0,
+      "configurableData": {},
+      "isInWishlist": false,
+      "wishlistItemId": 0,
+      "typeId": "simple",
+      "entityId": "10",
+      "rating": 0,
+      "isAvailable": true,
+      "price": 889,
+      "finalPrice": 889,
+      "formattedPrice": "$889.00",
+      "formattedFinalPrice": "$889.00",
+      "name": "Gray Coat",
+      "hasRequiredOptions": false,
+      "isNew": false,
+      "isInRange": false,
+      "thumbNail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/5c6b5a4cb6e1d36a4d8f119c2c22a505\/u\/n\/untitled-4.png",
+      "dominantColor": "#d6d6d8",
+      "tierPrice": "",
+      "formattedTierPrice": "",
+      "minAddToCartQty": 1,
+      "availability": "In stock",
+      "arUrl": "",
+      "arType": "2D",
+      "arTextureImages": [],
+      "salesQty": "17"
+    },
+    {
+      "reviewCount": 0,
+      "configurableData": {
+        "attributes": [
+          {
+            "id": "93",
+            "code": "color",
+            "label": "Color",
+            "options": [
+              {
+                "id": "28",
+                "label": "Gray",
+                "products": [
+                  "84"
+                ]
+              },
+              {
+                "id": "29",
+                "label": "Gold",
+                "products": [
+                  "85"
+                ]
+              }
+            ],
+            "position": "0",
+            "swatchType": "",
+            "updateProductPreviewImage": false
+          }
+        ],
+        "template": "$<%- data.price %>",
+        "optionPrices": [
+          {
+            "oldPrice": {
+              "amount": 50
+            },
+            "basePrice": {
+              "amount": 50
+            },
+            "finalPrice": {
+              "amount": 50
+            },
+            "tierPrices": [],
+            "msrpPrice": {
+              "amount": null
+            },
+            "product": 84
+          },
+          {
+            "oldPrice": {
+              "amount": 40
+            },
+            "basePrice": {
+              "amount": 40
+            },
+            "finalPrice": {
+              "amount": 40
+            },
+            "tierPrices": [],
+            "msrpPrice": {
+              "amount": null
+            },
+            "product": 85
+          }
+        ],
+        "prices": {
+          "oldPrice": {
+            "amount": "40"
+          },
+          "basePrice": {
+            "amount": "40"
+          },
+          "finalPrice": {
+            "amount": "40"
+          }
+        },
+        "productId": "86",
+        "chooseText": "Choose an Option...",
+        "images": "{\"84\":[{\"thumb\":\"https:\\\/\\\/mobikuldemo.webkul.com\\\/mobikulmp\\\/pub\\\/media\\\/catalog\\\/product\\\/cache\\\/c5beac1c56e9fbb7852aa5e8089cc77c\\\/1\\\/_\\\/1_1_2.jpg\",\"img\":\"https:\\\/\\\/mobikuldemo.webkul.com\\\/mobikulmp\\\/pub\\\/media\\\/catalog\\\/product\\\/cache\\\/0c1d3ffddecbb83862f09c383d5574ed\\\/1\\\/_\\\/1_1_2.jpg\",\"full\":\"https:\\\/\\\/mobikuldemo.webkul.com\\\/mobikulmp\\\/pub\\\/media\\\/catalog\\\/product\\\/cache\\\/59c8be11577865fba45c985104e0e996\\\/1\\\/_\\\/1_1_2.jpg\",\"caption\":null,\"position\":\"1\",\"isMain\":true,\"isVideo\":false,\"videoUrl\":\"\"}],\"85\":[{\"thumb\":\"https:\\\/\\\/mobikuldemo.webkul.com\\\/mobikulmp\\\/pub\\\/media\\\/catalog\\\/product\\\/cache\\\/c5beac1c56e9fbb7852aa5e8089cc77c\\\/3\\\/_\\\/3_1_1.jpg\",\"img\":\"https:\\\/\\\/mobikuldemo.webkul.com\\\/mobikulmp\\\/pub\\\/media\\\/catalog\\\/product\\\/cache\\\/0c1d3ffddecbb83862f09c383d5574ed\\\/3\\\/_\\\/3_1_1.jpg\",\"full\":\"https:\\\/\\\/mobikuldemo.webkul.com\\\/mobikulmp\\\/pub\\\/media\\\/catalog\\\/product\\\/cache\\\/59c8be11577865fba45c985104e0e996\\\/3\\\/_\\\/3_1_1.jpg\",\"caption\":null,\"position\":\"1\",\"isMain\":true,\"isVideo\":false,\"videoUrl\":\"\"}]}",
+        "index": "[{\"93\":\"28\",\"product\":84},{\"93\":\"29\",\"product\":85}]",
+        "swatchData": "[]"
+      },
+      "isInWishlist": false,
+      "wishlistItemId": 0,
+      "typeId": "configurable",
+      "entityId": "86",
+      "rating": 0,
+      "isAvailable": true,
+      "price": 40,
+      "finalPrice": 40,
+      "formattedPrice": "$40.00",
+      "formattedFinalPrice": "$40.00",
+      "name": "Bangles",
+      "hasRequiredOptions": true,
+      "isNew": false,
+      "isInRange": false,
+      "thumbNail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/5c6b5a4cb6e1d36a4d8f119c2c22a505\/8\/_\/8_2.jpg",
+      "dominantColor": "#f7f4ea",
+      "tierPrice": "",
+      "formattedTierPrice": "",
+      "minAddToCartQty": 1,
+      "availability": "In stock",
+      "arUrl": "",
+      "arType": "2D",
+      "arTextureImages": [],
+      "salesQty": "7"
+    },
+    {
+      "reviewCount": 0,
+      "configurableData": {},
+      "isInWishlist": false,
+      "wishlistItemId": 0,
+      "typeId": "simple",
+      "entityId": "83",
+      "rating": 0,
+      "isAvailable": true,
+      "price": 100,
+      "finalPrice": 100,
+      "formattedPrice": "$100.00",
+      "formattedFinalPrice": "$100.00",
+      "name": "Stylish Googles",
+      "hasRequiredOptions": false,
+      "isNew": false,
+      "isInRange": false,
+      "thumbNail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/5c6b5a4cb6e1d36a4d8f119c2c22a505\/5\/_\/5_3.jpg",
+      "dominantColor": "#dcd8d2",
+      "tierPrice": "",
+      "formattedTierPrice": "",
+      "minAddToCartQty": 1,
+      "availability": "In stock",
+      "arUrl": "",
+      "arType": "2D",
+      "arTextureImages": [],
+      "salesQty": "5"
+    },
+    {
+      "reviewCount": 0,
+      "configurableData": {},
+      "isInWishlist": false,
+      "wishlistItemId": 0,
+      "typeId": "simple",
+      "entityId": "3",
+      "rating": 0,
+      "isAvailable": true,
+      "price": 100,
+      "finalPrice": 100,
+      "formattedPrice": "$100.00",
+      "formattedFinalPrice": "$100.00",
+      "name": "Stylish Bag",
+      "hasRequiredOptions": false,
+      "isNew": true,
+      "isInRange": false,
+      "thumbNail": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/cache\/5c6b5a4cb6e1d36a4d8f119c2c22a505\/p\/u\/purse-4.png",
+      "dominantColor": "#f8d1d3",
+      "tierPrice": "",
+      "formattedTierPrice": "",
+      "minAddToCartQty": 1,
+      "availability": "In stock",
+      "arUrl": "",
+      "arType": "2D",
+      "arTextureImages": [],
+      "salesQty": "4"
+    }
+  ],
+  "categoryChart": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/mobikulmphttp\/marketplace\/dashboard_tunnel\/?encrypted_data=2b869ff0077d41fb95a6d26e9da7dddceecd624e624d27432d5ab1c9450dc80a&param_data=eyJjaHQiOiJwIiwiY2hsIjoiQ2xvdGhpbmd8VGVlc3xIb29kaWVzICYgU3dlYXRzaGlydHN8QVIgcHJvZHVjdHN8R2VhcnxNZW58RGVmYXVsdCBDYXRlZ29yeXxFbGVjdHJvbmljc3xXb21lbiIsImNoY28iOiI0MjM4OTF8MkIxQzg5fDk4MUIxNHw2N0I0ODd8ODYxNDVBfEI4NDAxM3xDMzEzQ0N8NTJBNjY4fDRBOTkzQSIsImNoZCI6InQ6MTI2LDQsNCw0LDIsMTAsNCwyLDAiLCJjaGRsIjoiMTI2JXw0JXw0JXw0JXwyJXwxMCV8NCV8MiV8MCUiLCJjaHMiOiIzNTB4MTY5In0%253D",
+  "recentOrderList": [
+    {
+      "orderId": "132",
+      "incrementId": "000000125",
+      "qtyOrdered": 1,
+      "qtyInvoiced": 1,
+      "qtyShipped": 1,
+      "qtyCanceled": 0,
+      "qtyRefunded": 1,
+      "productNames": [
+        {
+          "qty": 0,
+          "name": "seller simple",
+          "productId": "2164"
+        }
+      ],
+      "status": "CLOSED",
+      "statusColorCode": "#e44c53",
+      "customerDetails": {
+        "name": "John Doe",
+        "date": "11\/3\/21",
+        "baseTotal": "$0.00",
+        "purchaseTotal": "$0.00"
+      }
+    },
+    {
+      "orderId": "129",
+      "incrementId": "000000122",
+      "qtyOrdered": 1,
+      "qtyInvoiced": 1,
+      "qtyShipped": 1,
+      "qtyCanceled": 0,
+      "qtyRefunded": 0,
+      "productNames": [
+        {
+          "qty": 1,
+          "name": "Gray Coat",
+          "productId": "10"
+        }
+      ],
+      "status": "COMPLETE",
+      "statusColorCode": "#59a500",
+      "customerDetails": {
+        "name": "John Doe",
+        "date": "10\/29\/21",
+        "baseTotal": "$533.40",
+        "purchaseTotal": "$533.40"
+      }
+    },
+    {
+      "orderId": "128",
+      "incrementId": "000000121",
+      "qtyOrdered": 1,
+      "qtyInvoiced": 0,
+      "qtyShipped": 1,
+      "qtyCanceled": 0,
+      "qtyRefunded": 0,
+      "productNames": [
+        {
+          "qty": 1,
+          "name": "Gray Coat",
+          "productId": "10"
+        }
+      ],
+      "status": "PROCESSING",
+      "statusColorCode": "#3F51B5",
+      "customerDetails": {
+        "name": "John Doe",
+        "date": "10\/29\/21",
+        "baseTotal": "$533.40",
+        "purchaseTotal": "$533.40"
+      }
+    },
+    {
+      "orderId": "120",
+      "incrementId": "000000113",
+      "qtyOrdered": 1,
+      "qtyInvoiced": 1,
+      "qtyShipped": 0,
+      "qtyCanceled": 0,
+      "qtyRefunded": 0,
+      "productNames": [
+        {
+          "qty": 1,
+          "name": "Bangles",
+          "productId": "86"
+        },
+        {
+          "qty": 1,
+          "name": "Bangles-Silver",
+          "productId": "85"
+        }
+      ],
+      "status": "COMPLETE",
+      "statusColorCode": "#59a500",
+      "customerDetails": {
+        "name": "test user2",
+        "date": "4\/6\/21",
+        "baseTotal": "$32.00",
+        "purchaseTotal": "$32.00"
+      }
+    },
+    {
+      "orderId": "119",
+      "incrementId": "000000112",
+      "qtyOrdered": 1,
+      "qtyInvoiced": 0,
+      "qtyShipped": 0,
+      "qtyCanceled": 0,
+      "qtyRefunded": 0,
+      "productNames": [
+        {
+          "qty": 1,
+          "name": "Phone",
+          "productId": "2136"
+        },
+        {
+          "qty": 1,
+          "name": "pot",
+          "productId": "2135"
+        }
+      ],
+      "status": "PENDING",
+      "statusColorCode": "#fead4c",
+      "customerDetails": {
+        "name": "test user2",
+        "date": "4\/6\/21",
+        "baseTotal": "$88.00",
+        "purchaseTotal": "$88.00"
+      }
+    }
+  ],
+  "reviewList": [
+    {
+      "name": "John Doe",
+      "date": "2017-10-11 09:02:16",
+      "comment": "Garment store's products are original & value for money.",
+      "priceRating": 100,
+      "valueRating": 100,
+      "qualityRating": 100,
+      "avgRating": 5
+    },
+    {
+      "name": "John Doe",
+      "date": "2017-10-11 08:43:42",
+      "comment": "Working with a company, you have never worked with before raises a lot of questions. Webkul's capabilities exceeded my expectations. They get the job done in a timely manner. \n\nAny issue regarding their plugins, simply report it, using their ticket system webkul.uvdesk.com. They did a tremendous job in helping us set up our marketplace. They even provided fixes not relating to their plugins. That's how helpful they are.\n\nWe will be definitely be using Webkul for future projects",
+      "priceRating": 100,
+      "valueRating": 100,
+      "qualityRating": 100,
+      "avgRating": 5
+    },
+    {
+      "name": "Peter Paul",
+      "date": "2017-06-19 07:27:05",
+      "comment": "Marketplace Multi-vendor is a great and complete module. It is going to be very useful to grow my business.",
+      "priceRating": 100,
+      "valueRating": 100,
+      "qualityRating": 100,
+      "avgRating": 5
+    },
+    {
+      "name": "John Doe",
+      "date": "2016-09-14 15:40:01",
+      "comment": "My friend recommended the many other extensions, but the inventory settings seemed insufficient to me. I've chosen your module and felt the difference, as I can do everything I wish with my numerous warehouses. I've made separate admins responsible for a specific inventory and helped them do this efficiently.",
+      "priceRating": 60,
+      "valueRating": 80,
+      "qualityRating": 100,
+      "avgRating": 4
+    },
+    {
+      "name": "John Doe",
+      "date": "2015-12-23 09:24:22",
+      "comment": "I was first introduced to Webkul Marketplace in 2014 when I used Shopify for my website. The integration was seamless, the graphics and dash were impeccable, and it worked so well that I decided to upgrade my store to Magento and purchase Marketplace all over again. Why? \n\nWith so many great add-ons, and ease of customization, I wanted to take my business to the next level, and I knew Webkul could do it. \n",
+      "priceRating": 80,
+      "valueRating": 80,
+      "qualityRating": 100,
+      "avgRating": 4.3
+    }
+  ],
+  "eTag": "d288f83a5f93868a8d1cb0d913d06bafef2f75759671ba62240a635906d02dd8"
+}

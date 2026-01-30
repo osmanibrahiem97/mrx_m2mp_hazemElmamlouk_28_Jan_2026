@@ -1,0 +1,363 @@
+{
+  "success": true,
+  "message": "",
+  "productData": {
+    "type": "simple",
+    "websiteIds": [
+      "1"
+    ],
+    "attributeSetId": "4",
+    "categoryIds": [
+      "7"
+    ],
+    "name": " Lamp",
+    "description": "<p>dsdsds<\/p>",
+    "shortDescription": "",
+    "sku": "Lamp-444",
+    "price": "100.000000",
+    "specialPrice": "",
+    "specialFromDate": "",
+    "specialToDate": "",
+    "qty": 9,
+    "isInStock": true,
+    "visibility": "4",
+    "taxClassId": "0",
+    "productHasWeight": 1,
+    "status": "1",
+    "isFeaturedProduct": "no",
+    "weight": "5.000000",
+    "metaTitle": "",
+    "metaKeyword": "",
+    "metaDescription": "",
+    "mpProductCartLimit": "",
+    "baseImage": "\/a\/1\/a1205434.jpg",
+    "smallImage": "\/a\/1\/a1205434.jpg",
+    "swatchImage": "",
+    "thumbnail": "\/a\/1\/a1205434.jpg",
+    "mediaGallery": [
+      {
+        "value_id": "3619",
+        "file": "\/a\/1\/a1205434.jpg",
+        "media_type": "image",
+        "entity_id": "2156",
+        "label": "",
+        "position": "1",
+        "disabled": "0",
+        "label_default": "",
+        "position_default": "1",
+        "disabled_default": "0",
+        "video_provider": "",
+        "video_url": "",
+        "video_title": "",
+        "video_description": "",
+        "video_metadata": "",
+        "video_provider_default": "",
+        "video_url_default": "",
+        "video_title_default": "",
+        "video_description_default": "",
+        "video_metadata_default": "",
+        "url": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/catalog\/product\/a\/1\/a1205434.jpg",
+        "id": "3619"
+      }
+    ],
+    "related": [],
+    "upsell": [],
+    "crossSell": []
+  },
+  "inventoryAvailabilityOptions": [
+    {
+      "value": 1,
+      "label": "In Stock"
+    },
+    {
+      "value": 0,
+      "label": "Out of Stock"
+    }
+  ],
+  "allowedAttributes": [
+    {
+      "value": "4",
+      "label": "Default"
+    },
+    {
+      "value": "9",
+      "label": "Clothes"
+    }
+  ],
+  "allowedTypes": [
+    {
+      "value": "simple",
+      "label": "Simple"
+    },
+    {
+      "value": "downloadable",
+      "label": "Downloadable"
+    },
+    {
+      "value": "virtual",
+      "label": "Virtual"
+    }
+  ],
+  "isCategoryTreeAllowed": false,
+  "categories": {
+    "category_id": "2",
+    "name": "Default Category",
+    "children": [
+      {
+        "category_id": "3",
+        "name": "Clothing",
+        "children": []
+      },
+      {
+        "category_id": "25",
+        "name": "Women",
+        "children": [
+          {
+            "category_id": "26",
+            "name": "Tops",
+            "children": [
+              {
+                "category_id": "28",
+                "name": "Jackets",
+                "children": []
+              },
+              {
+                "category_id": "29",
+                "name": "Hoodies & Sweatshirts",
+                "children": []
+              },
+              {
+                "category_id": "30",
+                "name": "Tees",
+                "children": []
+              },
+              {
+                "category_id": "31",
+                "name": "Bras & Tanks",
+                "children": []
+              }
+            ]
+          },
+          {
+            "category_id": "27",
+            "name": "Bottoms",
+            "children": [
+              {
+                "category_id": "32",
+                "name": "Pants",
+                "children": []
+              },
+              {
+                "category_id": "33",
+                "name": "Shorts",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category_id": "4",
+        "name": "Decors",
+        "children": []
+      },
+      {
+        "category_id": "16",
+        "name": "Men",
+        "children": [
+          {
+            "category_id": "17",
+            "name": "Tops",
+            "children": [
+              {
+                "category_id": "19",
+                "name": "Jackets",
+                "children": []
+              },
+              {
+                "category_id": "20",
+                "name": "Hoodies & Sweatshirts",
+                "children": []
+              },
+              {
+                "category_id": "21",
+                "name": "Tees",
+                "children": []
+              },
+              {
+                "category_id": "22",
+                "name": "Tanks",
+                "children": []
+              }
+            ]
+          },
+          {
+            "category_id": "18",
+            "name": "Bottoms",
+            "children": [
+              {
+                "category_id": "23",
+                "name": "Pants",
+                "children": []
+              },
+              {
+                "category_id": "24",
+                "name": "Shorts",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category_id": "5",
+        "name": "Footwear",
+        "children": [
+          {
+            "category_id": "6",
+            "name": "Stilettos",
+            "children": []
+          }
+        ]
+      },
+      {
+        "category_id": "8",
+        "name": "Gear",
+        "children": [
+          {
+            "category_id": "9",
+            "name": "Bags",
+            "children": []
+          },
+          {
+            "category_id": "10",
+            "name": "Fitness Equipment",
+            "children": []
+          },
+          {
+            "category_id": "11",
+            "name": "Watches",
+            "children": []
+          }
+        ]
+      },
+      {
+        "category_id": "7",
+        "name": "Electronics",
+        "children": []
+      },
+      {
+        "category_id": "14",
+        "name": "Traning",
+        "children": [
+          {
+            "category_id": "15",
+            "name": "Video Download",
+            "children": []
+          }
+        ]
+      },
+      {
+        "category_id": "46",
+        "name": "AR products",
+        "children": []
+      }
+    ]
+  },
+  "assignedCategories": [],
+  "skuType": "static",
+  "skuhint": "Product SKU",
+  "showHint": true,
+  "skuPrefix": "DDFR",
+  "priceHint": "Product Price",
+  "imageHint": "Product Image",
+  "weightUnit": "lbs",
+  "productHint": "Product Name",
+  "categoryHint": "Product Category",
+  "inventoryHint": "Product Quantity",
+  "currencySymbol": "$",
+  "descriptionHint": "Product Description",
+  "specialPriceHint": "Product Special Price",
+  "specialEndDateHint": "Product Special Price End Date",
+  "shortdescriptionHint": "Product Short Description",
+  "specialStartDateHint": "Product Special Price Start Date",
+  "addProductLimitStatus": true,
+  "addGlobalProductLimitStatus": "10",
+  "addUpsellProductStatus": true,
+  "addRelatedProductStatus": true,
+  "addCrosssellProductStatus": true,
+  "inventoryAvailabilityHint": "Product Stock Availability",
+  "visibilityOptions": [
+    {
+      "value": 1,
+      "label": "Not Visible Individually"
+    },
+    {
+      "value": 2,
+      "label": "Catalog"
+    },
+    {
+      "value": 3,
+      "label": "Search"
+    },
+    {
+      "value": 4,
+      "label": "Catalog, Search"
+    }
+  ],
+  "taxHint": "Product Tax Types",
+  "taxOptions": [
+    {
+      "value": "2",
+      "label": "Taxable Goods"
+    },
+    {
+      "value": "4",
+      "label": "Refund Adjustments"
+    },
+    {
+      "value": "5",
+      "label": "Gift Options"
+    },
+    {
+      "value": "6",
+      "label": "Order Gift Wrapping"
+    },
+    {
+      "value": "7",
+      "label": "Item Gift Wrapping"
+    },
+    {
+      "value": "8",
+      "label": "Printed Gift Card"
+    },
+    {
+      "value": "9",
+      "label": "Reward Points"
+    }
+  ],
+  "weightHint": "Product Weight",
+  "imageRole": [
+    {
+      "id": 3618,
+      "value": "baseImage",
+      "label": "Base"
+    },
+    {
+      "id": 3619,
+      "value": "smallImage",
+      "label": "Small"
+    },
+    {
+      "id": 3620,
+      "value": "thumbnail",
+      "label": "Thumbnail"
+    },
+    {
+      "id": 3621,
+      "value": "swatchImage",
+      "label": "Swatch"
+    }
+  ],
+  "eTag": "7a84c77bf6ac98ca1a3411464ac17c77b1b81ab2fc31c7178402641599e95779"
+}

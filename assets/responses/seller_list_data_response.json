@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "message": "",
+  "apiKey": "AAAAr7KcCHU:APA91bHCFCfJbtGbfPdtYQkprrQtMIShFSS-j6XcMXnxRHzxQj66mguje62de3ngOH2GUQTcdd5vtQfw_MOViZMnkNJ9bsM0GxW_VeDZXxpAFkkZaFWVnd8GKzTUeugoKBrf66IuedQA",
+  "sellerList": [
+    {
+      "customerId": "25",
+      "customerToken": "587j41hrlotxpotcy0bk8gujpvld5vq7",
+      "token": "dM6Ia3DX9eo:APA91bGVOhuX6jmRwg7fG3b5pvmvPQT95gcvsYv-NplqHFCHZyhs37wJBET_3IR5fIX0Zpe3VAaXvhLTzNbEJ7uhZ7AdLehnFLiaBSGQU1UC-G6pxpNkJCphcFVzHYcOZb9xpim1WnMK",
+      "name": "Teat Test",
+      "email": "test01@webkul.com",
+      "profileImage": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/avatar\/2970x1485\/noimage.png"
+    },
+    {
+      "customerId": "24",
+      "customerToken": "1qkr3k9nk11hkk867cfb7lsfinairuc2",
+      "token": "edwkFJchxiA:APA91bH_ZZd_LE9tr3gxI8ubbAKOap7nugZt9cdvkm4kdojuIm8GcwcZ4mPLnWkTDrxkhL3bka42g3GfSI6MOK6MCVi8vmM_xiNiamokl08sUzeZhB8RowodOQv7IVUPkwGhclNG9xy4",
+      "name": "test test",
+      "email": "tester@webkul.com",
+      "profileImage": "https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/avatar\/2970x1485\/noimage.png"
+    }
+  ]
+}

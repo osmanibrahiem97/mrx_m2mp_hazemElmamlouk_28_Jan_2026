@@ -1,0 +1,41 @@
+{
+  "success":true,
+  "message":"",
+  "displayBanner":true,
+  "bannerContent":"Now sell on one of the best marketplace platforms to get maximum sales and visibility. No need to involve in the hassle to find a new customer for your product. This marketplace will resolve all your issues. So waiting for what hurry up!\r\n",
+  "buttonNHeadingLabel":"Open a Marketplace Shop",
+  "bottomLabel":"webkul",
+  "bannerImage":"https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/2835x1417.5\/marketplace\/banner\/sell-page-banner.png",
+  "topLabel":"webkul",
+  "sellersData":[
+    {
+      "logo":"https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/avatar\/378x378\/icon-electronics.jpg",
+      "sellerId":4,
+      "shopTitle":"Smart Way",
+      "companyDescription":"<p>Marketplace Multi-Vendor Module for Magento 2: Multi-Vendor Marketplace Extension converts your existing Magento 2 Store into a complete online shopping mall marketplace with multiple sellers. Using this extension, the suppliers\/sellers can manage the inventory, shipment, Seller Profile page, Seller Collection page. The supplier\/seller can add multiple types of products - Simple, Configurable, Virtual &amp; Downloadable. This extension is supported by many shipping &amp; payment add-ons including FedEx, USPS, DHL, PayPal, Stripe, Aramex.You can check out all the Shipping Modules and Payment Extensions. Also, Multi-Vendor Marketplace Mobile App (iOS, Andriod) is also available - Magento 2 Multi-Vendor Mobile App<\/p>",
+      "companyLocality":"New South Wales",
+      "bannerImage":"",
+      "productCount":"11 Products"
+    },
+    {
+      "logo":"https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/avatar\/378x378\/icon-decor.jpg",
+      "sellerId":2,
+      "shopTitle":"Urban Shop",
+      "companyDescription":"<p>Marketplace Multi-Vendor Module for Magento 2: Multi-Vendor Marketplace Extension converts your existing Magento 2 Store into a complete online shopping mall marketplace with multiple sellers. Using this extension, the suppliers\/sellers can manage the inventory, shipment, Seller Profile page, Seller Collection page. The supplier\/seller can add multiple types of products - Simple, Configurable, Virtual &amp; Downloadable. This extension is supported by many shipping &amp; payment add-ons including FedEx, USPS, DHL, PayPal, Stripe, Aramex.You can check out all the Shipping Modules and Payment Extensions. Also, Multi-Vendor Marketplace Mobile App (iOS, Andriod) is also available - Magento 2 Multi-Vendor Mobile App<\/p>",
+      "companyLocality":"Florida",
+      "bannerImage":"",
+      "productCount":"11 Products"
+    },
+    {
+      "logo":"https:\/\/mobikuldemo.webkul.com\/mobikulmp\/pub\/media\/mobikulresized\/avatar\/378x378\/519857_1.png",
+      "sellerId":1,
+      "shopTitle":"John's Store",
+      "companyDescription":"<p>Marketplace Multi-Vendor Module for Magento 2: Multi-Vendor Marketplace Extension converts your existing Magento 2 Store into a complete online shopping mall marketplace with multiple sellers. Using this extension, the suppliers\/sellers can manage the inventory, shipment, Seller Profile page, Seller Collection page. The supplier\/seller can add multiple types of products - Simple, Configurable, Virtual &amp; Downloadable. This extension is supported by many shipping &amp; payment add-ons including FedEx, USPS, DHL, PayPal, Stripe, Aramex.You can check out all the Shipping Modules and Payment Extensions. Also, Multi-Vendor Marketplace Mobile App (iOS, Andriod) is also available - Magento 2 Multi-Vendor Mobile App<\/p>",
+      "companyLocality":"New York, United States ",
+      "bannerImage":"",
+      "productCount":"35 Products"
+    }
+                ],
+  "eTag":"4de4b9d31249811036206ab64c1c1364b492286b289a1cd7e428a9c9513c71b7"
+}
+

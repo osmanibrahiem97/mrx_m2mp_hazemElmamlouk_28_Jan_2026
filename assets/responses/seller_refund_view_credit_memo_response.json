@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "message": "",
+  "mainHeading": "View Memo",
+  "subHeading": "Creditmemo #000000015",
+  "creditmemoStatus": "Refunded",
+  "creditmemoDate": "Nov 3, 2021, 2:42:37 PM",
+  "buttons": [
+    {
+      "label": "Send Email",
+      "title": "Send Email To Customer",
+      "confirm": "Are you sure you want to send credit memo email to customer?"
+    },
+    {
+      "label": "Print",
+      "title": "Print"
+    }
+  ],
+  "orderInfoHeading": "Order Information",
+  "orderHeading": "Order # 000000125",
+  "orderId": "132",
+  "orderStatusHeading": "Order Status",
+  "orderStatus": "closed",
+  "orderDateHeading": "Order Date",
+  "orderDate": "Nov 3, 2021, 2:35:37 PM",
+  "buyerInfoHeading": "Buyer Information",
+  "customerNameHeading": "Customer Name",
+  "customerName": "John Doe",
+  "customerEmailHeading": "Email",
+  "customerEmail": "Johndoe@example.com",
+  "shippingAddress": "",
+  "shippingMethod": "",
+  "AddressInfoHeading": "Address Information",
+  "billingAddressHeading": "Billing Address",
+  "billingAddress": "John Doe<br \/>\n\n2289<br \/>\nRosewood Lane<br \/>\n\n\nNew York,  New York, 10004<br \/>\nUnited States<br \/>\nT: <a href=\"tel:212-943-3917\">212-943-3917<\/a>\n\n<br \/>VAT: 215144561654",
+  "paymentandshippingHeading": "Payment & Shipping Method",
+  "paymentMethodHeading": "Payment Information:",
+  "paymentMethod": "Check \/ Money order",
+  "itemsRefundedHeading": "Items Refunded",
+  "productNameHeading": "Product Name",
+  "priceHeading": "Price",
+  "qtyHeading": "Qty",
+  "subtotalHeading": "Subtotal",
+  "codChargeHeading": "COD Charges",
+  "taxAmtHeading": "Tax Amount",
+  "discountAmtHeading": "Discount Amount",
+  "rowTotalHeading": "Row Total",
+  "itemList": [
+    {
+      "productName": "seller simple",
+      "customOption": [],
+      "downloadableOptionLable": "",
+      "downloadableOptionValue": [],
+      "sku": "dezz",
+      "price": "$100.00",
+      "qty": 1,
+      "subTotal": "$100.00",
+      "totalTax": "$0.00",
+      "discountTotal": "$0.00",
+      "rowTotal": "$100.00"
+    },
+    {
+      "productName": "Test product",
+      "customOption": [],
+      "downloadableOptionLable": "",
+      "downloadableOptionValue": [],
+      "sku": "gfye",
+      "price": "$104.00",
+      "qty": 3,
+      "subTotal": "$100.00",
+      "totalTax": "$0.00",
+      "discountTotal": "$0.00",
+      "rowTotal": "$100.00"
+    }
+  ],
+  "totals": [
+    {
+      "code": "subTotal",
+      "label": "Subtotal",
+      "value": "100.0000",
+      "formattedValue": "$100.00"
+    },
+    {
+      "code": "discount",
+      "label": "Discount",
+      "value": "0.0000",
+      "formattedValue": "$0.00"
+    },
+    {
+      "code": "tax",
+      "label": "Total Tax",
+      "value": "0.0000",
+      "formattedValue": "$0.00"
+    },
+    {
+      "code": "shipping",
+      "label": "Shipping & Handling",
+      "value": "0.0000",
+      "formattedValue": "$0.00"
+    },
+    {
+      "code": "adjustmentRefund",
+      "label": "Adjustment Refund",
+      "value": "0.0000",
+      "formattedValue": "$0.00"
+    },
+    {
+      "code": "adjustmentFee",
+      "label": "Adjustment Fee",
+      "value": "0.0000",
+      "formattedValue": "$0.00"
+    },
+    {
+      "code": "grandTotalAmt",
+      "label": "Grand Total",
+      "value": "100.0000",
+      "formattedValue": "$100.00"
+    }
+  ],
+  "eTag": "c25ba206940344d312ec61c6c223e59a7a500aa47e99a3701039be3577f03415"
+}

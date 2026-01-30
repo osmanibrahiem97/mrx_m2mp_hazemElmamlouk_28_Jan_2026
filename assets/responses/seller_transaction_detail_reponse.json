@@ -1,0 +1,25 @@
+{
+  "success":true,
+  "message":"",
+  "transactionId":"tr-d7tkc2qFHVI",
+  "date":"December 3, 2018",
+  "type":"Manual",
+  "method":"Manual",
+  "amount":"$207.00",
+  "comment":"For Order ID #000000071",
+  "orderList":
+  [
+    {
+      "qty":"1",
+      "price":"$345.00",
+      "totalTax":"$0.00",
+      "shipping":"$0.00",
+      "totalPrice":"$345.00",
+      "commission":"$69.00",
+      "incrementId":"000000071",
+      "productName":"Blue Coat",
+      "subTotal":"$276.00"
+    }
+  ],
+  "eTag":"5465548214df1ac2edb35f87ee19f07b85a6ac0d7db45bb6a4d2a1e33ee67e18"
+}
