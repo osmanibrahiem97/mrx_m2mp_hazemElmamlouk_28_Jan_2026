@@ -72,7 +72,7 @@ dependencies:
   connectivity_plus: ^6.0.2
   carousel_slider: ^5.0.0
   google_sign_in: ^6.2.1
-  flutter_login_facebook: ^2.0.1
+  # flutter_login_facebook: ^2.0.1
   double_back_to_close: ^2.0.0
 #  in_app_update: ^4.0.1
   upgrader: ^10.2.0

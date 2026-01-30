@@ -14,7 +14,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_login_facebook/flutter_login_facebook.dart';
+// import 'package:flutter_login_facebook/flutter_login_facebook.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 import '../../../app_widgets/app_alert_message.dart';
@@ -28,7 +28,7 @@ class SocialSignin {
   // );
 
   final _googleSignin = GoogleSignIn();
-  final facebookLogin = FacebookLogin();
+  // final facebookLogin = FacebookLogin();
   Authprovider provider = Authprovider.none;
 
   Future<GoogleSignInAccount?> handleGoogleSignIn(BuildContext context) async {
@@ -45,26 +45,26 @@ class SocialSignin {
     }
   }
 
-  Future<FacebookLoginResult?> handleFacebookSignIn(BuildContext context) async {
-    try {
-      var result = await facebookLogin.logIn(permissions: [
-        FacebookPermission.email,
-      ]);
-      print(result.status);
-      print(await facebookLogin.accessToken);
-      if ((await facebookLogin.isLoggedIn)) {
-        print(await facebookLogin.getUserEmail());
-      }
-      provider = Authprovider.facebook;
-      return result;
-    } catch (error, stk) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        AlertMessage.showWarning(error.toString(), context);
-      });
-      print(stk);
-      return null;
-    }
-  }
+  // Future<FacebookLoginResult?> handleFacebookSignIn(BuildContext context) async {
+  //   try {
+  //     var result = await facebookLogin.logIn(permissions: [
+  //       FacebookPermission.email,
+  //     ]);
+  //     print(result.status);
+  //     print(await facebookLogin.accessToken);
+  //     if ((await facebookLogin.isLoggedIn)) {
+  //       print(await facebookLogin.getUserEmail());
+  //     }
+  //     provider = Authprovider.facebook;
+  //     return result;
+  //   } catch (error, stk) {
+  //     WidgetsBinding.instance.addPostFrameCallback((_) {
+  //       AlertMessage.showWarning(error.toString(), context);
+  //     });
+  //     print(stk);
+  //     return null;
+  //   }
+  // }
 
   void signout() async {
     switch (provider) {
