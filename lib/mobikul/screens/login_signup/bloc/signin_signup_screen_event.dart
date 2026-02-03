@@ -87,11 +87,4 @@ class SignUpEvent extends SigninSignupScreenEvent {
   List<Object> get props => [email, password];
 }
 
-class SocialLoginEvent extends SigninSignupScreenEvent {
-  const SocialLoginEvent(this.request);
 
-  final SocialLoginModel request;
-
-  @override
-  List<Object> get props => [request];
-}

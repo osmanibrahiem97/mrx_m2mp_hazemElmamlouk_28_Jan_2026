@@ -121,6 +121,9 @@ class _ViewSellerOrderShipmentState extends State<SellerOrderDetailsScreen>
     //  case AppLifecycleState.hidden:
         // widget is hidden
         break;
+      case AppLifecycleState.hidden:
+        // TODO: Handle this case.
+        throw UnimplementedError();
     }
   }
 

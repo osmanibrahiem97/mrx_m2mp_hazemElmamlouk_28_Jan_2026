@@ -15,7 +15,7 @@
 <resources>
     <string name="app_name">Mr. X</string>
 
-    <string name="facebook_app_id">308787029610110</string>
-    <string name="facebook_client_token">3cc376e87548e2a322ce68608a1c3875</string>
+    <string name="facebook_app_id"></string>
+    <string name="facebook_client_token"></string>
 
 </resources>

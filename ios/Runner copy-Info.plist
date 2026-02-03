@@ -37,16 +37,16 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb308787029610110</string>
+				<string></string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>FacebookAppID</key>
-	<string>308787029610110</string>
+	<string></string>
 	<key>FacebookClientToken</key>
-	<string>7430dcda10fb41242a2de06bc13a7907</string>
+	<string></string>
 	<key>FacebookDisplayName</key>
 	<string>Mobikul</string>
 	<key>LSRequiresIPhoneOS</key>

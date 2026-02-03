@@ -37,7 +37,7 @@ class GraphQlApiCalling {
   GraphQLClient clientToQuery() {
     debugPrint("HEADER ----------------------------> ${httpLink.defaultHeaders}");
     return GraphQLClient(
-      queryRequestTimeout: const Duration(seconds: 20),
+      queryRequestTimeout: const Duration(seconds: 60),
       cache: GraphQLCache(store: HiveStore()),
       // cache: GraphQLCache(),
       link: loggerLink.concat(authLink.concat(httpLink)),

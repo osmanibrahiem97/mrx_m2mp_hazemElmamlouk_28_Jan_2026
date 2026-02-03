@@ -103,6 +103,7 @@ class ApiClient {
     var response = await (client.clientToQuery()).query(QueryOptions(
       cacheRereadPolicy: isRefresh ? CacheRereadPolicy.mergeOptimistic : CacheRereadPolicy.mergeOptimistic,
       fetchPolicy: isRefresh ? FetchPolicy.noCache : FetchPolicy.cacheAndNetwork,
+      queryRequestTimeout: Duration(seconds: 60),
       document: gql(
         mutation.homePageData(
             appStoragePref.getWebsiteId(),

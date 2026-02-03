@@ -38,7 +38,7 @@ class PushNotificationsManager {
   static final DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
 
   static const initializationSettingsAndroid =
-  AndroidInitializationSettings('@mipmap/ic_launcher');
+      AndroidInitializationSettings('@mipmap/ic_launcher');
 
   // static const initializationSettingsIOS = IOSInitializationSettings(
   //   requestAlertPermission: true,
@@ -47,26 +47,29 @@ class PushNotificationsManager {
   // );
 
   final InitializationSettings initializationSettings =
-  const InitializationSettings(
-      android: initializationSettingsAndroid,
-      // iOS: initializationSettingsIOS
+      const InitializationSettings(
+    android: initializationSettingsAndroid,
+    // iOS: initializationSettingsIOS
   );
 
   FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
-  FlutterLocalNotificationsPlugin();
+      FlutterLocalNotificationsPlugin();
 
   void setUpFirebase(BuildContext context) {
-    flutterLocalNotificationsPlugin.initialize(initializationSettings,
+    flutterLocalNotificationsPlugin.initialize(
+        settings: initializationSettings,
         // onSelectNotification: (String? payload) async {
         onDidReceiveNotificationResponse: (NotificationResponse payload) async {
-          if ((payload.payload?.isNotEmpty ?? false) && appStoragePref.getAllowAllNotifications()) {
+          if ((payload.payload?.isNotEmpty ?? false) &&
+              appStoragePref.getAllowAllNotifications()) {
             print("payload==>" + payload.toString());
 
             Map notificationModelMap = json.decode(payload.toString());
             var notificationId = notificationModelMap["id"];
             var notificationType = notificationModelMap["notificationType"];
 
-            if (notificationType ==  AppConstant.productTypeNotification && appStoragePref.getAllowOfferNotifications()) {
+            if (notificationType == AppConstant.productTypeNotification &&
+                appStoragePref.getAllowOfferNotifications()) {
               Navigator.of(navigatorKey.currentContext!).pushNamed(
                 AppRoutes.productPage,
                 arguments: getProductDataAttributeMap(
@@ -74,44 +77,51 @@ class PushNotificationsManager {
                   notificationModelMap["productId"] ?? "",
                 ),
               );
-
-            } else if (notificationType ==  AppConstant.categoryTypeNotification && appStoragePref.getAllowOfferNotifications()) {
-              Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.catalog,
+            } else if (notificationType ==
+                    AppConstant.categoryTypeNotification &&
+                appStoragePref.getAllowOfferNotifications()) {
+              Navigator.pushNamed(
+                  navigatorKey.currentContext!, AppRoutes.catalog,
                   arguments: getCatalogMap(
                     notificationModelMap["categoryId"] ?? "",
                     notificationModelMap["categoryName"] ?? "",
                     BUNDLE_KEY_CATALOG_TYPE_CATEGORY,
                     false,
                   ));
-
-            } else if (notificationType ==  AppConstant.customTypeNotification && appStoragePref.getAllowOfferNotifications()) {
-              Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.catalog,
+            } else if (notificationType == AppConstant.customTypeNotification &&
+                appStoragePref.getAllowOfferNotifications()) {
+              Navigator.pushNamed(
+                  navigatorKey.currentContext!, AppRoutes.catalog,
                   arguments: getCatalogMap(
                     notificationModelMap["id"] ?? "",
                     notificationModelMap["title"] ?? "",
                     BUNDLE_KEY_CATALOG_TYPE_CATEGORY,
                     false,
                   ));
-
-            } else if (notificationType ==  AppConstant.otherTypeNotification && appStoragePref.getAllowOfferNotifications()) {
-              Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.cmsPage,
+            } else if (notificationType == AppConstant.otherTypeNotification &&
+                appStoragePref.getAllowOfferNotifications()) {
+              Navigator.pushNamed(
+                  navigatorKey.currentContext!, AppRoutes.cmsPage,
                   arguments: getCmsPageArguments(
                       notificationModelMap["id"] ?? "",
-                      notificationModelMap["title"] ?? ""
-                  ));
-
-            } else if (notificationType ==  AppConstant.chatTypeNotification) {
-              print("CHECK_Data ==> ${int.parse(notificationModelMap["senderId"].split("-")[1] ?? "0")} ");
-              AssignedDeliveryBoyDetails? deliveryBoys = AssignedDeliveryBoyDetails(sellerId:int.parse(notificationModelMap["senderId"].split("-")[1] ?? "0"),
-                  customerId: 9, name: "Himani"
-              );
-              Navigator.pushNamed(context, AppRoutes.deliveryboyHelpChatScreen,arguments: deliveryBoys);
-
-            } else if (notificationType ==  AppConstant.orderTypeNotification && appStoragePref.getAllowOrderNotifications()) {
-              Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.orderDetail,
-                  arguments: notificationModelMap["incrementId"] ?? ""
-              );
-
+                      notificationModelMap["title"] ?? ""));
+            } else if (notificationType == AppConstant.chatTypeNotification) {
+              print(
+                  "CHECK_Data ==> ${int.parse(notificationModelMap["senderId"].split("-")[1] ?? "0")} ");
+              AssignedDeliveryBoyDetails? deliveryBoys =
+                  AssignedDeliveryBoyDetails(
+                      sellerId: int.parse(
+                          notificationModelMap["senderId"].split("-")[1] ??
+                              "0"),
+                      customerId: 9,
+                      name: "Himani");
+              Navigator.pushNamed(context, AppRoutes.deliveryboyHelpChatScreen,
+                  arguments: deliveryBoys);
+            } else if (notificationType == AppConstant.orderTypeNotification &&
+                appStoragePref.getAllowOrderNotifications()) {
+              Navigator.pushNamed(
+                  navigatorKey.currentContext!, AppRoutes.orderDetail,
+                  arguments: notificationModelMap["incrementId"] ?? "");
             }
           }
         });
@@ -121,7 +131,7 @@ class PushNotificationsManager {
   Future<StyleInformation?> getNotificationStyle(String? image) async {
     if (image != null) {
       final ByteData imageData =
-      await NetworkAssetBundle(Uri.parse(image)).load("");
+          await NetworkAssetBundle(Uri.parse(image)).load("");
       return BigPictureStyleInformation(
           ByteArrayAndroidBitmap(imageData.buffer.asUint8List()));
     } else {
@@ -150,12 +160,36 @@ class PushNotificationsManager {
       // iOS: iOSPlatformChannelSpecifics,
     );
 
-    flutterLocalNotificationsPlugin
-        .show(0, title, body, platformChannelSpecifics, payload: payload);
+    flutterLocalNotificationsPlugin.show(
+        id: 0,
+        title: title,
+        body: body,
+        notificationDetails: platformChannelSpecifics,
+        payload: payload);
   }
 
   Future<String?> createFcmToken() async {
-    return _firebaseMessaging.getToken();
+    String? token;
+    if (Platform.isIOS) {
+      String? apnsToken = await _firebaseMessaging.getAPNSToken();
+      if (apnsToken != null) {
+        token = await _firebaseMessaging.getToken();
+      } else {
+        await Future<void>.delayed(
+          const Duration(
+            seconds: 3,
+          ),
+        );
+        apnsToken = await _firebaseMessaging?.getAPNSToken();
+        if (apnsToken != null) {
+          token = await _firebaseMessaging.getToken();
+        }
+      }
+    } else {
+      token = await _firebaseMessaging.getToken();
+    }
+    print("token-->${token}");
+    return token;
   }
 
   void _firebaseCloudMessagingListeners(BuildContext context) async {
@@ -175,11 +209,8 @@ class PushNotificationsManager {
       _firebaseMessaging.subscribeToTopic(AppConstant.fcmMessagingTopicAndroid);
     }
 
-
-
     //When app is in Working state
     FirebaseMessaging.onMessage.listen((RemoteMessage message) async {
-
       print('NOTIFICATION DATA ====>  ${message.data}');
 
       var data = message.data;
@@ -190,7 +221,8 @@ class PushNotificationsManager {
         var notificationBody = data["body"];
         var notificationBanner = data["banner_url"];
 
-        showNotification(notificationTitle!, notificationBody!, json.encode(data), notificationBanner);
+        showNotification(notificationTitle!, notificationBody!,
+            json.encode(data), notificationBanner);
       }
     });
 
@@ -200,29 +232,27 @@ class PushNotificationsManager {
       if (message.data['type'] == "product") {
         print("product");
         Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.productPage,
-            arguments:
-            getProductDataAttributeMap(message.data['name'], message.data['id']));
+            arguments: getProductDataAttributeMap(
+                message.data['name'], message.data['id']));
       } else if (message.data['type'] == "category") {
-        Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.catalog,
+        Navigator.pushNamed(
+          navigatorKey.currentContext!,
+          AppRoutes.catalog,
           arguments: getCatalogMap(
-              message.data['id'],
-              message.data['name'],
-              "",
-              false),
+              message.data['id'], message.data['name'], "", false),
         );
       } else if (message.data['type'] == AppConstant.chatTypeNotification) {
-        Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.deliveryboyHelpChatScreen,
+        Navigator.pushNamed(
+            navigatorKey.currentContext!, AppRoutes.deliveryboyHelpChatScreen,
             arguments: getNotificationArguments(
                 message.data["accountType"] ?? "",
-                message.data["senderId"] ?? ""
-            ));
+                message.data["senderId"] ?? ""));
       } else if (message.data['type'] == AppConstant.customTypeNotification) {
-        Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.catalog,
+        Navigator.pushNamed(
+          navigatorKey.currentContext!,
+          AppRoutes.catalog,
           arguments: getCatalogMap(
-              message.data['id'],
-              message.data['name'],
-              "",
-              false),
+              message.data['id'], message.data['name'], "", false),
         );
       }
     });
@@ -232,12 +262,12 @@ class PushNotificationsManager {
     _firebaseMessaging.getInitialMessage().then((RemoteMessage? message) {
       print("open app data");
       if (message?.data != null && appStoragePref.getAllowAllNotifications()) {
-
-        print("payload==> ${message?.data}" );
+        print("payload==> ${message?.data}");
         var notificationModelMap = message!.data;
         var notificationType = notificationModelMap["notificationType"];
 
-        if (notificationType ==  AppConstant.productTypeNotification && appStoragePref.getAllowOfferNotifications()) {
+        if (notificationType == AppConstant.productTypeNotification &&
+            appStoragePref.getAllowOfferNotifications()) {
           Navigator.of(navigatorKey.currentContext!).pushNamed(
             AppRoutes.productPage,
             arguments: getProductDataAttributeMap(
@@ -245,8 +275,8 @@ class PushNotificationsManager {
               notificationModelMap["productId"] ?? "",
             ),
           );
-
-        } else if (notificationType ==  AppConstant.categoryTypeNotification && appStoragePref.getAllowOfferNotifications()) {
+        } else if (notificationType == AppConstant.categoryTypeNotification &&
+            appStoragePref.getAllowOfferNotifications()) {
           Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.catalog,
               arguments: getCatalogMap(
                 notificationModelMap["categoryId"] ?? "",
@@ -254,8 +284,8 @@ class PushNotificationsManager {
                 BUNDLE_KEY_CATALOG_TYPE_CATEGORY,
                 false,
               ));
-
-        } else if (notificationType ==  AppConstant.customTypeNotification && appStoragePref.getAllowOfferNotifications()) {
+        } else if (notificationType == AppConstant.customTypeNotification &&
+            appStoragePref.getAllowOfferNotifications()) {
           Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.catalog,
               arguments: getCatalogMap(
                 notificationModelMap["id"] ?? "",
@@ -263,25 +293,22 @@ class PushNotificationsManager {
                 BUNDLE_KEY_CATALOG_TYPE_CATEGORY,
                 false,
               ));
-
-        } else if (notificationType ==  AppConstant.otherTypeNotification && appStoragePref.getAllowOfferNotifications()) {
+        } else if (notificationType == AppConstant.otherTypeNotification &&
+            appStoragePref.getAllowOfferNotifications()) {
           Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.cmsPage,
-              arguments: getCmsPageArguments(
-                  notificationModelMap["id"] ?? "",
-                  notificationModelMap["title"] ?? ""
-              ));
-
-        } else if (notificationType ==  AppConstant.chatTypeNotification) {
-          Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.deliveryboyHelpChatScreen,
+              arguments: getCmsPageArguments(notificationModelMap["id"] ?? "",
+                  notificationModelMap["title"] ?? ""));
+        } else if (notificationType == AppConstant.chatTypeNotification) {
+          Navigator.pushNamed(
+              navigatorKey.currentContext!, AppRoutes.deliveryboyHelpChatScreen,
               arguments: getNotificationArguments(
                   notificationModelMap["accountType"] ?? "",
-                  notificationModelMap["senderId"] ?? ""
-              ));
-        } else if (notificationType ==  AppConstant.orderTypeNotification && appStoragePref.getAllowOrderNotifications()) {
-          Navigator.pushNamed(navigatorKey.currentContext!, AppRoutes.orderDetail,
-              arguments: notificationModelMap["incrementId"] ?? ""
-          );
-
+                  notificationModelMap["senderId"] ?? ""));
+        } else if (notificationType == AppConstant.orderTypeNotification &&
+            appStoragePref.getAllowOrderNotifications()) {
+          Navigator.pushNamed(
+              navigatorKey.currentContext!, AppRoutes.orderDetail,
+              arguments: notificationModelMap["incrementId"] ?? "");
         }
       }
     });

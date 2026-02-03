@@ -15,14 +15,7 @@
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		2B5D1FB62EFBCE3800441821 /* FastViTT8F16.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D1FB52EFBCE3800441821 /* FastViTT8F16.mlpackage */; };
 		2B5D1FB72EFBCE3800441821 /* FastViTT8F16.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D1FB52EFBCE3800441821 /* FastViTT8F16.mlpackage */; };
-		354C48BF40E663D6C936539C /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB50A21F413C1B10148B6BA /* Pods_Runner.framework */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
-		446C929A2C3C339B00369579 /* FBAEMKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008FBA122A19FAB500797EE6 /* FBAEMKit.xcframework */; };
-		446C929B2C3C339B00369579 /* FBAEMKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 008FBA122A19FAB500797EE6 /* FBAEMKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		446C929C2C3C33A000369579 /* FBSDKLoginKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E925EC2B20AE6600EAC53B /* FBSDKLoginKit.xcframework */; };
-		446C929D2C3C33A000369579 /* FBSDKLoginKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44E925EC2B20AE6600EAC53B /* FBSDKLoginKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		447A1D1D2B3411EB00E8FD12 /* FBSDKCoreKit_Basics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447A1D182B34115100E8FD12 /* FBSDKCoreKit_Basics.xcframework */; };
-		44861B112B1F74CA00864585 /* FBAEMKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008FBA122A19FAB500797EE6 /* FBAEMKit.xcframework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		44AE06232D27BF7000F55AA8 /* AppIconDefault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AE06172D27BF6F00F55AA8 /* AppIconDefault@2x.png */; };
 		44AE06242D27BF7000F55AA8 /* AppIconFour@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AE06182D27BF6F00F55AA8 /* AppIconFour@2x.png */; };
 		44AE06252D27BF7000F55AA8 /* AppIconOne@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AE06192D27BF6F00F55AA8 /* AppIconOne@2x.png */; };
@@ -61,46 +54,13 @@
 		44E9263F2B20AFC100EAC53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		44E926512B20B3E400EAC53B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44E9264C2B20B13B00EAC53B /* GoogleService-Info.plist */; };
 		44E926532B20B3EE00EAC53B /* MobikulMP-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44E9264D2B20B13B00EAC53B /* MobikulMP-Info.plist */; };
-		44EA61A32C1976D40002A110 /* FBSDKCoreKit_Basics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447A1D182B34115100E8FD12 /* FBSDKCoreKit_Basics.xcframework */; };
-		44EA61A42C1976D40002A110 /* FBSDKCoreKit_Basics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 447A1D182B34115100E8FD12 /* FBSDKCoreKit_Basics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		44EA61A52C1976D60002A110 /* FBSDKCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448B04482B3335BB00D10743 /* FBSDKCoreKit.xcframework */; };
-		44EA61A62C1976D60002A110 /* FBSDKCoreKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 448B04482B3335BB00D10743 /* FBSDKCoreKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		44EB9B512C1AB63500C1F716 /* FBSDKLoginKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E925EC2B20AE6600EAC53B /* FBSDKLoginKit.xcframework */; };
-		44EB9B522C1AB63500C1F716 /* FBSDKLoginKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44E925EC2B20AE6600EAC53B /* FBSDKLoginKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		858A3478B57B88F874ED69F0 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F6B9B8BD858C1F7C7A5BC1 /* Pods_Runner.framework */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		BA811CF12A1CB2040000E59D /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = BA811CF02A1CB2030000E59D /* Classes */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		44EA61A22C1976D30002A110 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				446C929B2C3C339B00369579 /* FBAEMKit.xcframework in Embed Frameworks */,
-				44EA61A62C1976D60002A110 /* FBSDKCoreKit.xcframework in Embed Frameworks */,
-				44EA61A42C1976D40002A110 /* FBSDKCoreKit_Basics.xcframework in Embed Frameworks */,
-				446C929D2C3C33A000369579 /* FBSDKLoginKit.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		44EB9B532C1AB63500C1F716 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				44EB9B522C1AB63500C1F716 /* FBSDKLoginKit.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		008FBA122A19FAB500797EE6 /* FBAEMKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBAEMKit.xcframework; path = Pods/FBAEMKit/XCFrameworks/FBAEMKit.xcframework; sourceTree = "<group>"; };
@@ -112,13 +72,14 @@
 		008FBA1B2A19FC0D00797EE6 /* MLKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLKitViewController.xib; sourceTree = "<group>"; };
 		008FBA212A19FE2D00797EE6 /* Mobikul_Magento2V3_App_Mobikul_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mobikul_Magento2V3_App_Mobikul_Info.plist; sourceTree = "<group>"; };
 		008FBA232A1A076200797EE6 /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
+		0D96623F483930D3A8030D25 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
-		1AB50A21F413C1B10148B6BA /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B5D1FB52EFBCE3800441821 /* FastViTT8F16.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = FastViTT8F16.mlpackage; path = ../../../../../../../Downloads/FastViTT8F16.mlpackage; sourceTree = "<group>"; };
-		337B52FDB9288826D74585E6 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		2B5D1FB52EFBCE3800441821 /* FastViTT8F16.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = FastViTT8F16.mlpackage; path = ../../../../../../Downloads/FastViTT8F16.mlpackage; sourceTree = "<group>"; };
+		2DFFF2E72F30B97000A7E782 /* Runner copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy3-Info.plist"; path = "/Users/ajay/Documents/Client Project/Magento 2 Mobile App M2Mp/MrX/mrx_multivendor_flutter_app/ios/Runner copy3-Info.plist"; sourceTree = "<absolute>"; };
+		2DFFF3142F30B97000A7E782 /* Runner copy 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy 2-Info.plist"; path = "/Users/ajay/Documents/Client Project/Magento 2 Mobile App M2Mp/MrX/mrx_multivendor_flutter_app/ios/Runner copy 2-Info.plist"; sourceTree = "<absolute>"; };
+		2DFFF3412F30B97000A7E782 /* Runner copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy copy-Info.plist"; path = "/Users/ajay/Documents/Client Project/Magento 2 Mobile App M2Mp/MrX/mrx_multivendor_flutter_app/ios/Runner copy copy-Info.plist"; sourceTree = "<absolute>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
-		3CD37ED54D0F7D527B3E6AE7 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		447A1D182B34115100E8FD12 /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit_Basics.xcframework; path = Pods/FBSDKCoreKit_Basics/XCFrameworks/FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
 		448B04482B3335BB00D10743 /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit.xcframework; path = Pods/FBSDKCoreKit/XCFrameworks/FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
 		44AE06172D27BF6F00F55AA8 /* AppIconDefault@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconDefault@2x.png"; sourceTree = "<group>"; };
@@ -151,6 +112,8 @@
 		44E9264A2B20AFC100EAC53B /* Runner copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy2-Info.plist"; path = "/Users/suraj/Desktop/Magento Mp/ios/Runner copy2-Info.plist"; sourceTree = "<absolute>"; };
 		44E9264C2B20B13B00EAC53B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		44E9264D2B20B13B00EAC53B /* MobikulMP-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MobikulMP-Info.plist"; sourceTree = "<group>"; };
+		44F6B9B8BD858C1F7C7A5BC1 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEE24D77DC64971B4313EB2 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
@@ -162,7 +125,7 @@
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA811CF02A1CB2030000E59D /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
-		D431360FBC57FA70C5982CEE /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		BAFC1164439571952CE9F9A6 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,10 +133,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44EA61A32C1976D40002A110 /* FBSDKCoreKit_Basics.xcframework in Frameworks */,
-				44EA61A52C1976D60002A110 /* FBSDKCoreKit.xcframework in Frameworks */,
-				446C929A2C3C339B00369579 /* FBAEMKit.xcframework in Frameworks */,
-				446C929C2C3C33A000369579 /* FBSDKLoginKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,10 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44861B112B1F74CA00864585 /* FBAEMKit.xcframework in Frameworks */,
-				44EB9B512C1AB63500C1F716 /* FBSDKLoginKit.xcframework in Frameworks */,
-				447A1D1D2B3411EB00E8FD12 /* FBSDKCoreKit_Basics.xcframework in Frameworks */,
-				354C48BF40E663D6C936539C /* Pods_Runner.framework in Frameworks */,
+				858A3478B57B88F874ED69F0 /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +202,7 @@
 				448B04482B3335BB00D10743 /* FBSDKCoreKit.xcframework */,
 				44E925EC2B20AE6600EAC53B /* FBSDKLoginKit.xcframework */,
 				008FBA122A19FAB500797EE6 /* FBAEMKit.xcframework */,
-				1AB50A21F413C1B10148B6BA /* Pods_Runner.framework */,
+				44F6B9B8BD858C1F7C7A5BC1 /* Pods_Runner.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -275,6 +231,9 @@
 				58F0029B0D2B7B6E936BB93B /* Frameworks */,
 				44E926102B20AF3300EAC53B /* Runner copy-Info.plist */,
 				44E9264A2B20AFC100EAC53B /* Runner copy2-Info.plist */,
+				2DFFF2E72F30B97000A7E782 /* Runner copy3-Info.plist */,
+				2DFFF3142F30B97000A7E782 /* Runner copy 2-Info.plist */,
+				2DFFF3412F30B97000A7E782 /* Runner copy copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -314,9 +273,9 @@
 		B5FA5C1094EC07677A1C1036 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D431360FBC57FA70C5982CEE /* Pods-Runner.debug.xcconfig */,
-				3CD37ED54D0F7D527B3E6AE7 /* Pods-Runner.release.xcconfig */,
-				337B52FDB9288826D74585E6 /* Pods-Runner.profile.xcconfig */,
+				6DEE24D77DC64971B4313EB2 /* Pods-Runner.debug.xcconfig */,
+				0D96623F483930D3A8030D25 /* Pods-Runner.release.xcconfig */,
+				BAFC1164439571952CE9F9A6 /* Pods-Runner.profile.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -333,7 +292,6 @@
 				44E926342B20AFC100EAC53B /* Frameworks */,
 				44E926382B20AFC100EAC53B /* Resources */,
 				44E926402B20AFC100EAC53B /* Thin Binary */,
-				44EA61A22C1976D30002A110 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -348,15 +306,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
 			buildPhases = (
-				A94E7DA12AC36C3DE48FF94D /* [CP] Check Pods Manifest.lock */,
+				8E8422A9586C195200A241B0 /* [CP] Check Pods Manifest.lock */,
 				9740EEB61CF901F6004384FC /* Run Script */,
 				97C146EA1CF9000F007C117D /* Sources */,
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
-				44EB9B532C1AB63500C1F716 /* Embed Frameworks */,
-				5425C44A53677C8EBC45ED00 /* [CP] Embed Pods Frameworks */,
-				52CF235191FB04BE1F3A1FC3 /* [CP] Copy Pods Resources */,
+				B2770BBFBE52347A98648512 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -504,56 +460,7 @@
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin\n";
 		};
-		52CF235191FB04BE1F3A1FC3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5425C44A53677C8EBC45ED00 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9740EEB61CF901F6004384FC /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
-		};
-		A94E7DA12AC36C3DE48FF94D /* [CP] Check Pods Manifest.lock */ = {
+		8E8422A9586C195200A241B0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -573,6 +480,42 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9740EEB61CF901F6004384FC /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+		};
+		B2770BBFBE52347A98648512 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -722,11 +665,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8G7T6T42X2;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = VALID_ARCHS;
 				"EXCLUDED_ARCHS[sdk=*]" = "";
@@ -744,7 +685,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrxsa.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = mrx_ios_multivendor;
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -946,7 +886,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
-				DEVELOPMENT_TEAM = 8G7T6T42X2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = VALID_ARCHS;
 				"EXCLUDED_ARCHS[sdk=*]" = "";

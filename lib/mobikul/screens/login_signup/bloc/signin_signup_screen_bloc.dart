@@ -19,7 +19,6 @@ import '../../../models/base_model.dart';
 import '../../../models/login_signup/login_response_model.dart';
 import '../../../models/login_signup/sign_up_screen_model.dart';
 import '../../../models/login_signup/signup_response_model.dart';
-import '../../../models/login_signup/social_login_model.dart';
 
 part 'signin_signup_screen_event.dart';
 
@@ -113,29 +112,6 @@ class SigninSignupScreenBloc
           if (model.success ?? false) {
             emit(ForgotPasswordState(model));
           } else {
-            emit(SigninSignupScreenError(model.message));
-          }
-        } else {
-          emit(SigninSignupScreenError(""));
-        }
-      } catch (error, _) {
-        emit(SigninSignupScreenError(error.toString()));
-      }
-      await Future.delayed(const Duration(seconds: 3), () {
-        emit(CompleteState());
-      });
-    } else if (event is SocialLoginEvent) {
-      // emit(LoadingState());
-      print("TEST_LOG==> SocialLoginEvent ==> ${event.request.email}");
-      try {
-        print("4----->${event.request.toJson()}");
-        var model = await repository?.socialLogin(event.request);
-        if (model != null) {
-          if (model.success ?? false) {
-            emit(SignupScreenFormSuccess(model));
-          } else {
-            print("----->>>${model.toJson()}");
-            print("----->${model.message}=====>>");
             emit(SigninSignupScreenError(model.message));
           }
         } else {

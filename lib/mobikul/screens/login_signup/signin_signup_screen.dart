@@ -20,7 +20,6 @@ import 'package:test_new/mobikul/constants/app_constants.dart';
 import 'package:test_new/mobikul/constants/app_string_constant.dart';
 import 'package:test_new/mobikul/helper/bottom_sheet_helper.dart';
 import 'package:test_new/mobikul/helper/utils.dart';
-import 'package:test_new/mobikul/screens/login_signup/view/social_login.dart';
 import 'package:path_provider/path_provider.dart' as path;
 
 import '../../app_widgets/app_alert_message.dart';

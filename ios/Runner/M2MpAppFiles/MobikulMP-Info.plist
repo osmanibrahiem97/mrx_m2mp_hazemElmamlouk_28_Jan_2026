@@ -93,7 +93,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb308787029610110</string>
+				<string></string>
 			</array>
 		</dict>
 		<dict>
@@ -113,16 +113,16 @@
 			</array>
 			<key>TwitterConsumerKey</key>
 			<string>xrpSJuw2eZJYyz5IC4jSD0Fqr</string>
-			<key>v6Yof5BQVHfTOFBRBJOTq7amm</key>
-			<string>7T1zAyrQkQFm8QwR8K2H1AjYPKLwbaZ4rFfhWlCrxPWwtzDPD9</string>
+			<key></key>
+			<string></string>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
-	<string>308787029610110</string>
+	<string></string>
 	<key>FacebookClientToken</key>
-	<string>fda1919df36cae01716c0a033fbc7575</string>
+	<string></string>
 	<key>FacebookDisplayName</key>
 	<string>Mobikul</string>
 	<key>LSApplicationCategoryType</key>
@@ -138,17 +138,17 @@
 		<string>linkedin</string>
 		<string>linkedin-sdk2</string>
 		<string>linkedin-sdk</string>
-		<string>fbapi</string>
-		<string>fbapi20130214</string>
-		<string>fbapi20130410</string>
-		<string>fbapi20130702</string>
-		<string>fbapi20131010</string>
-		<string>fbapi20131219</string>
-		<string>fbapi20140410</string>
-		<string>fbapi20140116</string>
-		<string>fbapi20150313</string>
-		<string>fbapi20150629</string>
-		<string>fbapi20160328</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
 		<string>fbauth</string>
 		<string>fb-messenger-share-api</string>
 		<string>fbauth2</string>

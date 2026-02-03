@@ -20,18 +20,13 @@ plugins {
 }
 
 
-def localProperties = new Properties()
+def localProperties = new java.util.Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
     localPropertiesFile.withReader('UTF-8') { reader ->
         localProperties.load(reader)
     }
 }
-
-//def flutterRoot = localProperties.getProperty('flutter.sdk')
-//if (flutterRoot == null) {
-//    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
-//}
 
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
 if (flutterVersionCode == null) {
@@ -43,11 +38,6 @@ if (flutterVersionName == null) {
     flutterVersionName = '4.45'
 }
 
-//apply plugin: 'com.android.application'
-//apply plugin: 'kotlin-android'
-//apply plugin: 'kotlin-kapt'
-//apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
-//apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 36
@@ -72,6 +62,8 @@ android {
         multiDexEnabled true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        // Set the single applicationId directly so productFlavors are not required
+        applicationId "com.mrxsa.vendors"
     }
 
     buildFeatures {
@@ -79,36 +71,33 @@ android {
         dataBinding = true
     }
 
+
     buildTypes {
-        buildTypes {
-            debug {
-                debuggable true
-                minifyEnabled false
-              //  proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            }
-
-            release {
-                minifyEnabled true
-              //  proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            }
-        }
-    }
-
-    flavorDimensions 'default'
-    productFlavors {
-        mobikul {
-            applicationId "com.mrxsa.vendors"
-            dimension 'default'
-        }
-        mobikulmp {
-            applicationId "com.mrxsa.vendors"
-            dimension 'default'
+        debug {
+            debuggable true
+            minifyEnabled false
+          //  proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
 
+        release {
+            minifyEnabled true
+          //  proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
     }
     namespace 'com.example.test_new'
     lint {
         checkReleaseBuilds false
+    }
+
+    // Add packagingOptions to avoid duplicate META-INF conflicts
+    packagingOptions {
+        resources {
+            excludes += 'META-INF/DEPENDENCIES'
+            excludes += 'META-INF/LICENSE'
+            excludes += 'META-INF/LICENSE.txt'
+            excludes += 'META-INF/NOTICE'
+            excludes += 'META-INF/NOTICE.txt'
+        }
     }
 }
 
@@ -120,7 +109,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation platform('com.google.firebase:firebase-bom:29.1.0')
     implementation 'com.google.firebase:firebase-crashlytics-buildtools:3.0.6'
-    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.3'
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.4'
     implementation 'com.facebook.android:facebook-android-sdk:8.2.0'
     implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.17.1'
     //    ML KIT

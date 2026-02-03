@@ -18,9 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 4.45.0+445
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
-#  ">=3.0.0 <3.10.1"
-
+  sdk: ">=3.0.0 <4.0.0"
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
@@ -36,63 +34,57 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  get_storage: ^2.0.3
-  retrofit:
-  flutter_bloc:
-  simple_animations: ^3.0.0
-  flutter_html: ^3.0.0-beta.2
-  equatable: ^2.0.3
-  lottie: ^1.3.0
-  local_auth: ^2.1.8
-  webview_flutter: ^4.4.2
-  cached_network_image: ^3.2.1
-  image_picker: ^0.8.4+10
-  package_info_plus: ^8.0.0
-  dio: ^5.7.0
-  dio_cookie_manager: ^2.0.0
-  permission_handler:
-  graphql_flutter: ^5.2.0
-  graphql: ^5.2.1
-  speech_to_text: ^7.1.0
-  firebase_core: ^3.15.1
-  firebase_messaging: ^15.2.9
-  flutter_local_notifications: ^18.0.0
-  device_info_plus: ^10.1.0
-  location: ^6.0.1
-  geocoding:
-#  ^2.0.4
-  google_maps_flutter: ^2.10.0
-#  flutter_share: ^2.0.0
-  share_plus: ^11.0.0
-  file_picker: ^8.0.3
-  file_saver: ^0.2.14
-#  downloads_path_provider_28: ^0.1.2
-  floor: ^1.4.1
-  connectivity_plus: ^6.0.2
-  carousel_slider: ^5.0.0
-  google_sign_in: ^6.2.1
-  # flutter_login_facebook: ^2.0.1
+  cupertino_icons: ^1.0.8
+  get_storage: ^2.1.1
+  retrofit: ^4.9.2
+  flutter_bloc: ^9.1.1
+  simple_animations: ^5.2.0
+  equatable: ^2.0.8
+  lottie: ^3.3.2
+  local_auth: ^3.0.0
+  webview_flutter: ^4.13.1
+  cached_network_image: ^3.4.1
+  image_picker: ^1.2.1
+  package_info_plus: ^9.0.0
+  dio: ^5.9.1
+  dio_cookie_manager: ^3.3.0
+  permission_handler: ^12.0.1
+  graphql_flutter: ^5.2.1
+  graphql: ^5.2.3
+  speech_to_text: ^7.3.0
+  firebase_core: ^4.4.0
+  firebase_messaging: ^16.1.1
+  flutter_local_notifications: ^20.0.0
+  device_info_plus: ^12.3.0
+  location: ^8.0.1
+  geocoding: ^4.0.0
+  google_maps_flutter: ^2.14.0
+  share_plus: ^12.0.1
+  file_picker: ^10.3.10
+  file_saver: ^0.3.1
+  floor: ^1.5.0
+  connectivity_plus: ^7.0.0
+  carousel_slider: ^5.1.1
   double_back_to_close: ^2.0.0
-#  in_app_update: ^4.0.1
-  upgrader: ^10.2.0
-  path_provider: ^2.0.8
-  provider: ^6.0.5
-  shared_preferences: ^2.1.0
+  upgrader: ^12.5.0
+  path_provider: ^2.1.5
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.4
   flutter_bounce: ^1.1.0
-  flutter_material_color_picker:
-  firebase_database: ^11.3.9
-  page_transition: "^2.0.9"
-  flutter_exif_rotation: ^0.5.1
-  open_file:
+  flutter_material_color_picker: ^1.2.0
+  firebase_database: ^12.1.2
+  page_transition: ^2.2.1
+  flutter_exif_rotation: ^0.5.2
+  open_file: ^3.5.11
   overlay_support: ^2.1.0
-  flutter_widget_from_html: ^0.9.0
-  flutter_polyline_points: ^2.0.0
+  flutter_widget_from_html: ^0.17.1
+  flutter_polyline_points: ^3.1.0
   html_unescape: ^2.0.0
-  fl_chart: ^0.66.0
-  unique_simple_bar_chart: ^0.0.1
-  countries_world_map: ^1.0.0
+  fl_chart: ^1.1.1
+  unique_simple_bar_chart: ^0.0.4
+  countries_world_map: ^1.3.0
   pie_chart: ^5.4.0
+  flutter_html: ^3.0.0
 
 
 
@@ -106,16 +98,17 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
-  retrofit_generator:
-  json_annotation:
-  build_runner:
-  json_serializable:
-  floor_generator: ^1.4.1
+  flutter_lints: ^6.0.0
+  retrofit_generator: ^10.0.3
+  json_annotation: ^4.9.0
+  build_runner: ^2.7.0
+  json_serializable: ^6.7.0
 
 dependency_overrides:
-  firebase_core_platform_interface: 5.4.1
-  web_socket_channel: 3.0.1
+  firebase_core_platform_interface: ^6.0.2
+  web_socket_channel: ^3.0.3
+  connectivity_plus: ^7.0.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

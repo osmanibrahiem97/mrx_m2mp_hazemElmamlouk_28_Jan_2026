@@ -13,7 +13,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:overlay_support/overlay_support.dart';
-// import 'package:fluttertoast/fluttertoast.dart';
+// import 'package:fluttertoast/fluttertoast.dart;
 // import 'package:overlay_support/overlay_support.dart';
 import 'package:simple_animations/simple_animations.dart';
 import 'dart:async';
@@ -119,60 +119,65 @@ class ToastUtils {
     );
   }
 }
-class SlideInToastMessageAnimation extends StatelessWidget {
+class SlideInToastMessageAnimation extends StatefulWidget {
   final Widget child;
 
-  const SlideInToastMessageAnimation(this.child,{Key? key}):super(key: key);
+  const SlideInToastMessageAnimation(this.child, {Key? key}) : super(key: key);
+
+  @override
+  State<SlideInToastMessageAnimation> createState() => _SlideInToastMessageAnimationState();
+}
+
+class _SlideInToastMessageAnimationState extends State<SlideInToastMessageAnimation> with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+  late final Animation<double> _opacityAnim;
+  late final Animation<double> _translateYAnim;
+
+  // Duration chosen to emulate previous timings: 500ms fade in, 1000ms hold, 500ms fade out
+  static const _totalDuration = Duration(milliseconds: 2000);
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(vsync: this, duration: _totalDuration);
+
+    // Opacity: 0 -> 1 (0-500ms), hold 1 (500-1500ms), 1 -> 0 (1500-2000ms)
+    _opacityAnim = TweenSequence<double>([
+      TweenSequenceItem(tween: Tween(begin: 0.0, end: 1.0).chain(CurveTween(curve: Curves.easeIn)), weight: 25),
+      TweenSequenceItem(tween: ConstantTween<double>(1.0), weight: 50),
+      TweenSequenceItem(tween: Tween(begin: 1.0, end: 0.0).chain(CurveTween(curve: Curves.easeOut)), weight: 25),
+    ]).animate(_controller);
+
+    // Translate Y (vertical slide): -100 -> 0 (0-250ms), hold (250-1750ms), 0 -> -100 (1750-2000ms)
+    _translateYAnim = TweenSequence<double>([
+      TweenSequenceItem(tween: Tween(begin: -100.0, end: 0.0).chain(CurveTween(curve: Curves.easeOut)), weight: 12.5),
+      TweenSequenceItem(tween: ConstantTween<double>(0.0), weight: 75),
+      TweenSequenceItem(tween: Tween(begin: 0.0, end: -100.0).chain(CurveTween(curve: Curves.easeIn)), weight: 12.5),
+    ]).animate(_controller);
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
-    final tween = MultiTween<AnimationType>()
-      ..add(
-        AnimationType.translateX,
-        Tween(begin: -100.0, end: 0.0),
-        const Duration(milliseconds: 250),
-        Curves.easeOut,
-      )
-      ..add(
-        AnimationType.translateX,
-        Tween(begin: 0.0, end: 0.0),
-        const Duration(seconds: 1, milliseconds: 250),
-      )
-      ..add(
-        AnimationType.translateX,
-        Tween(begin: 0.0, end: -100.0),
-        const Duration(milliseconds: 250),
-        Curves.easeIn,
-      )
-      ..add(
-        AnimationType.opacity,
-        Tween(begin: 0.0, end: 1.0),
-        const Duration(milliseconds: 500),
-      )
-      ..add(
-        AnimationType.opacity,
-        Tween(begin: 1.0, end: 1.0),
-        const Duration(seconds: 1),
-      )
-      ..add(
-        AnimationType.opacity,
-        Tween(begin: 1.0, end: 0.0),
-        const Duration(milliseconds: 500),
-      );
-
-    return PlayAnimation<MultiTweenValues<AnimationType>>(
-        duration: tween.duration,
-        tween: tween,
-        child: child,
-        builder: (context, child, animation) {
-          return Opacity(
-            opacity: animation.get(AnimationType.opacity),
-            child: Transform.translate(
-                offset: Offset(0, animation.get(AnimationType.translateX)!),
-                child: child),
-          );
-        });
+    return AnimatedBuilder(
+      animation: _controller,
+      child: widget.child,
+      builder: (context, child) {
+        return Opacity(
+          opacity: _opacityAnim.value,
+          child: Transform.translate(
+            offset: Offset(0, _translateYAnim.value),
+            child: child,
+          ),
+        );
+      },
+    );
   }
 }
-
-enum AnimationType { opacity, translateX }

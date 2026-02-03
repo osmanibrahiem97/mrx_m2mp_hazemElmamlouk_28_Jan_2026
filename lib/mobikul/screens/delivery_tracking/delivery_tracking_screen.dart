@@ -108,9 +108,8 @@ class _DeliveryTrackingScreenState extends State<DeliveryTrackingScreen> {
   }
 
   void getPolyPoints() async {
-    PolylinePoints polylinePoints = PolylinePoints();
+    PolylinePoints polylinePoints = PolylinePoints(apiKey: AppConstant.googleKey);
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-      googleApiKey:AppConstant.googleKey,
       request: PolylineRequest(origin: PointLatLng(sourceLocation!.latitude, sourceLocation!.longitude), destination: PointLatLng(destination.latitude, destination.longitude), mode: TravelMode.driving),
     );
     if (result.points.isNotEmpty) {

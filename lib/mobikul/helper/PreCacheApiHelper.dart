@@ -1,8 +1,5 @@
-
-
-
 //mobikul  pre-cache
-import 'package:hive/hive.dart';
+import 'package:hive_ce/hive.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:test_new/mobikul/constants/app_constants.dart';
 
@@ -11,7 +8,7 @@ import '../models/catalog/request/catalog_product_request.dart';
 import '../network_manager/api_client.dart';
 
 //mobikul  pre-cache for category and subcategory
-late final Box<Map<dynamic, dynamic>?> mainBox;
+late final Box<dynamic> mainBox;
  precCacheCategoryPage(int categoryId)  {
 
   if (AppConstant.enablePrecache) {

@@ -158,7 +158,7 @@ class DownloadFile {
         android: initializationSettingsAndroid,
         iOS: initializationSettingsDarwin,
         macOS: initializationSettingsDarwin);
-    await flutterLocalNotificationsPlugin.initialize(initializationSettings,
+    await flutterLocalNotificationsPlugin.initialize(settings:initializationSettings,
       onDidReceiveNotificationResponse:
           (NotificationResponse notificationResponse) async {
         print('onDidReceiveNotificationResponse callback');
@@ -196,7 +196,7 @@ class NotificationService {
     InitializationSettings(
       android: _androidInitializationSettings,
     );
-    await _flutterLocalNotificationsPlugin.initialize(initializationSettings);
+    await _flutterLocalNotificationsPlugin.initialize(settings:initializationSettings);
   }
 
   void createNotification(int count, int i, int id, dynamic savePath,String saveName) {
@@ -213,8 +213,8 @@ class NotificationService {
         progress: i);
     var platformChannelSpecifics =
     NotificationDetails(android: androidPlatformChannelSpecifics);
-    _flutterLocalNotificationsPlugin.show(id, /*'Download'*/ 'Downloaded - $saveName',
-        '', platformChannelSpecifics,
+    _flutterLocalNotificationsPlugin.show(id: id, /*'Download'*/ title:'Downloaded - $saveName',
+        body: '',notificationDetails:  platformChannelSpecifics,
         payload: savePath);
   }
 

@@ -20,7 +20,6 @@ import '../../../helper/push_notifications_manager.dart';
 import '../../../models/base_model.dart';
 import '../../../models/login_signup/login_response_model.dart';
 import '../../../models/login_signup/sign_up_screen_model.dart';
-import '../../../models/login_signup/social_login_model.dart';
 import '../../../network_manager/api_client.dart';
 
 
@@ -47,7 +46,6 @@ abstract class SigninSignupScreenRepository {
 
   Future forgotPassword(String email);
 
-  Future<SignupResponseModel>? socialLogin(SocialLoginModel socialLoginRequest);
 }
 
 class SigninSignupScreenRepositoryImp implements SigninSignupScreenRepository {
@@ -129,38 +127,6 @@ class SigninSignupScreenRepositoryImp implements SigninSignupScreenRepository {
     LoginResponseModel? responseModel;
     try{
       responseModel = await ApiClient().customerLogin(email, password, firebaseToken??"");
-    }
-    catch(e, stacktrace){
-      print("Error --> " + e.toString());
-      print("StackTrace --> " + stacktrace.toString());
-    }
-    return responseModel!;
-  }
-
-  @override
-  Future<SignupResponseModel>? socialLogin(SocialLoginModel socialLoginRequest) async {
-    var firebaseToken = await PushNotificationsManager().createFcmToken();
-    print("deviceId==>$firebaseToken");
-    SignupResponseModel? responseModel;
-    try{
-      responseModel = await ApiClient().createAccount(
-          "",
-          socialLoginRequest.firstName??"",
-          "middleName",
-          socialLoginRequest.lastName??"",
-          "",
-          "",
-          "",
-          "",
-          socialLoginRequest.email??"",
-          socialLoginRequest.id??"",
-          "",
-          firebaseToken??"",
-          1,
-          false,
-          "",
-      );
-      print("Request data for socical${socialLoginRequest.toJson()}");
     }
     catch(e, stacktrace){
       print("Error --> " + e.toString());
