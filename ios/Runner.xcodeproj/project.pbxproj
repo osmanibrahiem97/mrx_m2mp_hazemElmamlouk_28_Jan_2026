@@ -75,10 +75,7 @@
 		0D96623F483930D3A8030D25 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
-		2B5D1FB52EFBCE3800441821 /* FastViTT8F16.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = FastViTT8F16.mlpackage; path = ../../../../../../Downloads/FastViTT8F16.mlpackage; sourceTree = "<group>"; };
-		2DFFF2E72F30B97000A7E782 /* Runner copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy3-Info.plist"; path = "/Users/ajay/Documents/Client Project/Magento 2 Mobile App M2Mp/MrX/mrx_multivendor_flutter_app/ios/Runner copy3-Info.plist"; sourceTree = "<absolute>"; };
-		2DFFF3142F30B97000A7E782 /* Runner copy 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy 2-Info.plist"; path = "/Users/ajay/Documents/Client Project/Magento 2 Mobile App M2Mp/MrX/mrx_multivendor_flutter_app/ios/Runner copy 2-Info.plist"; sourceTree = "<absolute>"; };
-		2DFFF3412F30B97000A7E782 /* Runner copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy copy-Info.plist"; path = "/Users/ajay/Documents/Client Project/Magento 2 Mobile App M2Mp/MrX/mrx_multivendor_flutter_app/ios/Runner copy copy-Info.plist"; sourceTree = "<absolute>"; };
+		2B5D1FB52EFBCE3800441821 /* FastViTT8F16.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = FastViTT8F16.mlpackage; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		447A1D182B34115100E8FD12 /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit_Basics.xcframework; path = Pods/FBSDKCoreKit_Basics/XCFrameworks/FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
 		448B04482B3335BB00D10743 /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBSDKCoreKit.xcframework; path = Pods/FBSDKCoreKit/XCFrameworks/FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
@@ -107,9 +104,7 @@
 		44AE063A2D27D60000F55AA8 /* AppIconTwo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconTwo@2x.png"; sourceTree = "<group>"; };
 		44AE063B2D27D60000F55AA8 /* AppIconThree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconThree@2x.png"; sourceTree = "<group>"; };
 		44E925EC2B20AE6600EAC53B /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBSDKLoginKit.xcframework; path = Pods/FBSDKLoginKit/XCFrameworks/FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
-		44E926102B20AF3300EAC53B /* Runner copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy-Info.plist"; path = "/Users/suraj/Desktop/Magento Mp/ios/Runner copy-Info.plist"; sourceTree = "<absolute>"; };
 		44E926492B20AFC100EAC53B /* Marketplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marketplace.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		44E9264A2B20AFC100EAC53B /* Runner copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runner copy2-Info.plist"; path = "/Users/suraj/Desktop/Magento Mp/ios/Runner copy2-Info.plist"; sourceTree = "<absolute>"; };
 		44E9264C2B20B13B00EAC53B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		44E9264D2B20B13B00EAC53B /* MobikulMP-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MobikulMP-Info.plist"; sourceTree = "<group>"; };
 		44F6B9B8BD858C1F7C7A5BC1 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,11 +224,6 @@
 				97C146EF1CF9000F007C117D /* Products */,
 				B5FA5C1094EC07677A1C1036 /* Pods */,
 				58F0029B0D2B7B6E936BB93B /* Frameworks */,
-				44E926102B20AF3300EAC53B /* Runner copy-Info.plist */,
-				44E9264A2B20AFC100EAC53B /* Runner copy2-Info.plist */,
-				2DFFF2E72F30B97000A7E782 /* Runner copy3-Info.plist */,
-				2DFFF3142F30B97000A7E782 /* Runner copy 2-Info.plist */,
-				2DFFF3412F30B97000A7E782 /* Runner copy copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
