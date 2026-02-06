@@ -30,12 +30,12 @@ if (localPropertiesFile.exists()) {
 
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
 if (flutterVersionCode == null) {
-    flutterVersionCode = '445'
+    flutterVersionCode = '1'
 }
 
 def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
-    flutterVersionName = '4.45'
+    flutterVersionName = '1.0.0'
 }
 
 
@@ -66,6 +66,15 @@ android {
         applicationId "com.mrxsa.vendors"
     }
 
+    signingConfigs {
+        release {
+            keyAlias 'key0'
+            keyPassword 'admin123'
+            storeFile file('/Users/ajay/Documents/Client Project/Magento 2 Mobile App M2Mp/MrX/mrx_multivendor_flutter_app/android/Untitled.jks')
+            storePassword 'admin123'
+        }
+    }
+
     buildFeatures {
 
         dataBinding = true
@@ -81,7 +90,8 @@ android {
 
         release {
             minifyEnabled true
-          //  proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            //  proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     namespace 'com.example.test_new'
